@@ -1,6 +1,6 @@
 import Foundation
 
-struct Simulator {
+public struct Simulator {
 
   static var isRunning: Bool = {
     #if (arch(i386) || arch(x86_64)) && os(iOS)
