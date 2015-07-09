@@ -10,6 +10,7 @@
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		BDC58E251B4E72D400387A84 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E231B4E72D400387A84 /* UnitTesting.swift */; };
 		BDC58E261B4E72D400387A84 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E241B4E72D400387A84 /* Simulator.swift */; };
+		BDC58E281B4E72FC00387A84 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E271B4E72FC00387A84 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BDC58E231B4E72D400387A84 /* UnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
 		BDC58E241B4E72D400387A84 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
+		BDC58E271B4E72FC00387A84 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				BDC58E231B4E72D400387A84 /* UnitTesting.swift */,
 				BDC58E241B4E72D400387A84 /* Simulator.swift */,
+				BDC58E271B4E72FC00387A84 /* Functions.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC58E281B4E72FC00387A84 /* Functions.swift in Sources */,
 				BDC58E251B4E72D400387A84 /* UnitTesting.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
 				BDC58E261B4E72D400387A84 /* Simulator.swift in Sources */,

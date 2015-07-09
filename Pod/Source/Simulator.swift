@@ -9,5 +9,4 @@ struct Simulator {
       return false
     #endif
   }()
-  
 }
