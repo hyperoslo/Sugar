@@ -1,6 +1,6 @@
 import Foundation
 
-func delay(delay:Double, closure: () -> Void) {
+public func delay(delay:Double, closure: () -> Void) {
   dispatch_after(
     dispatch_time(
       DISPATCH_TIME_NOW,
