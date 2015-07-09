@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
+		BDC58E251B4E72D400387A84 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E231B4E72D400387A84 /* UnitTesting.swift */; };
+		BDC58E261B4E72D400387A84 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E241B4E72D400387A84 /* Simulator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDC58E231B4E72D400387A84 /* UnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
+		BDC58E241B4E72D400387A84 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		146D728A1AB782920058798C = {
 			isa = PBXGroup;
 			children = (
-				14C1365B1AB784BC00B7B07A /* Source */,
+				BDC58E221B4E72B100387A84 /* Source */,
 				14C136501AB7849300B7B07A /* Metadata */,
 				146D72AF1AB782920058798C /* Tests */,
 				146D72941AB782920058798C /* Products */,
@@ -81,12 +85,13 @@
 			name = Metadata;
 			sourceTree = "<group>";
 		};
-		14C1365B1AB784BC00B7B07A /* Source */ = {
+		BDC58E221B4E72B100387A84 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BDC58E231B4E72D400387A84 /* UnitTesting.swift */,
+				BDC58E241B4E72D400387A84 /* Simulator.swift */,
 			);
-			name = Source;
-			path = ../Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC58E251B4E72D400387A84 /* UnitTesting.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
+				BDC58E261B4E72D400387A84 /* Simulator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
