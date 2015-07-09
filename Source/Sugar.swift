@@ -1,5 +1,0 @@
-import UIKit
-
-struct Sugar {
-
-}
