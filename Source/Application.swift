@@ -2,7 +2,7 @@ import UIKit
 
 public struct Application {
 
-  lazy var name: String = {
+  public lazy var name: String = {
     var applicationName = ""
     if let infoDictionary = NSBundle.mainBundle().infoDictionary,
     bundleName = infoDictionary["CFBundleDisplayName"] as? String {
