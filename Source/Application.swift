@@ -3,12 +3,12 @@ import UIKit
 public struct Application {
 
   public static var name: String = {
-    var applicationName = ""
+    var name = ""
     if let infoDictionary = NSBundle.mainBundle().infoDictionary,
     bundleName = infoDictionary["CFBundleDisplayName"] as? String {
-      applicationName = bundleName
+      name = bundleName
     }
-    return applicationName
+    return name
   }()
 
   public static var version: String = {
