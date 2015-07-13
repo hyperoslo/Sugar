@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
+		BD1AEEAC1B5459F800F42C58 /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */; };
 		BDC58E2F1B4E755600387A84 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2C1B4E755600387A84 /* Functions.swift */; };
 		BDC58E301B4E755600387A84 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2D1B4E755600387A84 /* Simulator.swift */; };
 		BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2E1B4E755600387A84 /* UnitTesting.swift */; };
@@ -23,6 +24,7 @@
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLStringConvertible.swift"; sourceTree = "<group>"; };
 		BDC58E2A1B4E735900387A84 /* Sugar.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Sugar.podspec; path = ../Sugar.podspec; sourceTree = "<group>"; };
 		BDC58E2C1B4E755600387A84 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		BDC58E2D1B4E755600387A84 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
@@ -91,9 +93,18 @@
 			name = Metadata;
 			sourceTree = "<group>";
 		};
+		BD1AEEAA1B5459C200F42C58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BDC58E2B1B4E755600387A84 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BD1AEEAA1B5459C200F42C58 /* Extensions */,
 				BDC58E2C1B4E755600387A84 /* Functions.swift */,
 				BDC58E2D1B4E755600387A84 /* Simulator.swift */,
 				BDC58E2E1B4E755600387A84 /* UnitTesting.swift */,
@@ -173,6 +184,7 @@
 				BDD522471B52E59700998517 /* Application.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
 				BDC58E2F1B4E755600387A84 /* Functions.swift in Sources */,
+				BD1AEEAC1B5459F800F42C58 /* String+URLStringConvertible.swift in Sources */,
 				BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */,
 				BDC58E301B4E755600387A84 /* Simulator.swift in Sources */,
 			);
