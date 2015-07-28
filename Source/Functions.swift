@@ -8,3 +8,7 @@ public func delay(delay:Double, closure: () -> Void) {
     ),
     dispatch_get_main_queue(), closure)
 }
+
+public func LocalizedString(key: String, comment: String? = nil) -> String {
+  return NSLocalizedString(key, comment: (comment != nil) ? comment! : key)
+}
