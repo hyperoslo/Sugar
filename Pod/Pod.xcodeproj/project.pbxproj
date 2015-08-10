@@ -13,6 +13,7 @@
 		BDC58E301B4E755600387A84 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2D1B4E755600387A84 /* Simulator.swift */; };
 		BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2E1B4E755600387A84 /* UnitTesting.swift */; };
 		BDD522471B52E59700998517 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD522461B52E59700998517 /* Application.swift */; };
+		D578D5DD1B78FB00002CCAE9 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578D5DC1B78FB00002CCAE9 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BDC58E2D1B4E755600387A84 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 		BDC58E2E1B4E755600387A84 /* UnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
 		BDD522461B52E59700998517 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		D578D5DC1B78FB00002CCAE9 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				BDC58E2D1B4E755600387A84 /* Simulator.swift */,
 				BDC58E2E1B4E755600387A84 /* UnitTesting.swift */,
 				BDD522461B52E59700998517 /* Application.swift */,
+				D578D5DC1B78FB00002CCAE9 /* Screen.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D578D5DD1B78FB00002CCAE9 /* Screen.swift in Sources */,
 				BDD522471B52E59700998517 /* Application.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
 				BDC58E2F1B4E755600387A84 /* Functions.swift in Sources */,
