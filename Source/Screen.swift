@@ -2,7 +2,7 @@ import UIKit
 
 public struct Screen {
 
-  public var pixelSize: CGSize {
+  public static var pixelSize: CGSize {
     let screenSize = UIScreen.mainScreen().bounds.size
     let scale = UIScreen.mainScreen().scale
 
