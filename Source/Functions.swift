@@ -12,3 +12,9 @@ public func delay(delay:Double, closure: () -> Void) {
 public func localizedString(key: String, comment: String? = nil) -> String {
   return NSLocalizedString(key, comment: (comment != nil) ? comment! : key)
 }
+
+public func mainQueue(closure: () -> Void) {
+  dispatch_async(dispatch_get_main_queue(), {
+    closure()
+  })
+}
