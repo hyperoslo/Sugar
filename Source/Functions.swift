@@ -13,8 +13,8 @@ public func localizedString(key: String, comment: String? = nil) -> String {
   return NSLocalizedString(key, comment: (comment != nil) ? comment! : key)
 }
 
-public func mainQueue(closure: () -> Void) {
-  dispatch_async(dispatch_get_main_queue(), {
+public func dispatch(queue: dispatch_queue_t = dispatch_get_main_queue(), closure: () -> Void) {
+  dispatch_async(queue, {
     closure()
   })
 }
