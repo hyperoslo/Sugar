@@ -23,7 +23,7 @@ public struct Application {
   }()
 
   public static var bundle: String = {
-    return Application.getString("CFBundleURLName")
+    return Application.getString("CFBundleIdentifier")
   }()
 
   public static var schemes: [String] = {
