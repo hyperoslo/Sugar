@@ -10,6 +10,8 @@
 		BD1AEEAC1B5459F800F42C58 /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */; };
 		BD64EB8C1BBC245300FE739C /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64EB8B1BBC245300FE739C /* Array+Queueable.swift */; settings = {ASSET_TAGS = (); }; };
 		BD64EB8E1BBC263000FE739C /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64EB8D1BBC263000FE739C /* TestQueueable.swift */; settings = {ASSET_TAGS = (); }; };
+		BD917C3E1BE8969C00C4A5D0 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD917C3D1BE8969C00C4A5D0 /* Operator.swift */; settings = {ASSET_TAGS = (); }; };
+		BD917C401BE8971900C4A5D0 /* TestOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD917C3F1BE8971900C4A5D0 /* TestOperators.swift */; settings = {ASSET_TAGS = (); }; };
 		BDC58E2F1B4E755600387A84 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2C1B4E755600387A84 /* Functions.swift */; };
 		BDC58E301B4E755600387A84 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2D1B4E755600387A84 /* Simulator.swift */; };
 		BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2E1B4E755600387A84 /* UnitTesting.swift */; };
@@ -28,6 +30,8 @@
 		BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLStringConvertible.swift"; sourceTree = "<group>"; };
 		BD64EB8B1BBC245300FE739C /* Array+Queueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Queueable.swift"; sourceTree = "<group>"; };
 		BD64EB8D1BBC263000FE739C /* TestQueueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestQueueable.swift; sourceTree = "<group>"; };
+		BD917C3D1BE8969C00C4A5D0 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		BD917C3F1BE8971900C4A5D0 /* TestOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOperators.swift; sourceTree = "<group>"; };
 		BDC58E2A1B4E735900387A84 /* Sugar.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Sugar.podspec; path = ../Sugar.podspec; sourceTree = "<group>"; };
 		BDC58E2C1B4E755600387A84 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		BDC58E2D1B4E755600387A84 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 				146D72B01AB782920058798C /* Supporting Files */,
 				14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */,
 				BD64EB8D1BBC263000FE739C /* TestQueueable.swift */,
+				BD917C3F1BE8971900C4A5D0 /* TestOperators.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 				BDC58E2E1B4E755600387A84 /* UnitTesting.swift */,
 				BDD522461B52E59700998517 /* Application.swift */,
 				D578D5DC1B78FB00002CCAE9 /* Screen.swift */,
+				BD917C3D1BE8969C00C4A5D0 /* Operator.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -191,10 +197,12 @@
 				D578D5DD1B78FB00002CCAE9 /* Screen.swift in Sources */,
 				BDD522471B52E59700998517 /* Application.swift in Sources */,
 				BD64EB8C1BBC245300FE739C /* Array+Queueable.swift in Sources */,
+				BD917C401BE8971900C4A5D0 /* TestOperators.swift in Sources */,
 				BDC58E2F1B4E755600387A84 /* Functions.swift in Sources */,
 				BD1AEEAC1B5459F800F42C58 /* String+URLStringConvertible.swift in Sources */,
 				BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */,
 				BDC58E301B4E755600387A84 /* Simulator.swift in Sources */,
+				BD917C3E1BE8969C00C4A5D0 /* Operator.swift in Sources */,
 				BD64EB8E1BBC263000FE739C /* TestQueueable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
