@@ -8,7 +8,8 @@ class OperatorTests: XCTestCase {
     let faultyURL = NSURL(string: "\\/http")
     let nilURL: NSURL? = nil
 
-    var testURL = hyper
+    var testURL: NSURL?
+    testURL ?= hyper
     XCTAssertEqual(testURL, hyper)
 
     testURL ?= faultyURL
