@@ -11,7 +11,7 @@ struct SecondObject: Queueable {
   func process() -> Bool { return false }
 }
 
-class Tests: XCTestCase {
+class QueueableTests: XCTestCase {
 
   func testQueueable() {
     var testQueue = [Object(), Object()]
