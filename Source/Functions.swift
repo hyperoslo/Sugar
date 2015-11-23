@@ -39,7 +39,3 @@ public func dispatch(queue queueType: DispatchQueue = .Main, closure: () -> Void
     closure()
   })
 }
-
-dispatch(queue: .Custom(myQueue)) {
-
-}
