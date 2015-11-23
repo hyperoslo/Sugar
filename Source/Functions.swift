@@ -14,7 +14,7 @@ public func localizedString(key: String, comment: String? = nil) -> String {
 }
 
 public enum DispatchQueue {
-  case Main, Interactive, Initiated, Utility, Background
+  case Main, Interactive, Initiated, Utility, Background, Custom(dispatch_queue_t)
 }
 
 public func dispatch(queue queueType: DispatchQueue = .Main, closure: () -> Void) {
@@ -31,9 +31,15 @@ public func dispatch(queue queueType: DispatchQueue = .Main, closure: () -> Void
       queue = dispatch_get_global_queue(QOS_CLASS_UTILITY, 0)
     case .Background:
       queue = dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)
+    case .Custom(let userQueue):
+      queue = userQueue
   }
 
   dispatch_async(queue, {
     closure()
   })
+}
+
+dispatch(queue: .Custom(myQueue)) {
+
 }
