@@ -16,6 +16,7 @@
 		BDC58E301B4E755600387A84 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2D1B4E755600387A84 /* Simulator.swift */; };
 		BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2E1B4E755600387A84 /* UnitTesting.swift */; };
 		BDD522471B52E59700998517 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD522461B52E59700998517 /* Application.swift */; };
+		D56C07841C04B89D0091D445 /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56C07831C04B89D0091D445 /* UITesting.swift */; settings = {ASSET_TAGS = (); }; };
 		D578D5DD1B78FB00002CCAE9 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578D5DC1B78FB00002CCAE9 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		BDC58E2D1B4E755600387A84 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 		BDC58E2E1B4E755600387A84 /* UnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
 		BDD522461B52E59700998517 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		D56C07831C04B89D0091D445 /* UITesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITesting.swift; sourceTree = "<group>"; };
 		D578D5DC1B78FB00002CCAE9 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				BDD522461B52E59700998517 /* Application.swift */,
 				D578D5DC1B78FB00002CCAE9 /* Screen.swift */,
 				BD917C3D1BE8969C00C4A5D0 /* Operator.swift */,
+				D56C07831C04B89D0091D445 /* UITesting.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -204,6 +207,7 @@
 				BDC58E301B4E755600387A84 /* Simulator.swift in Sources */,
 				BD917C3E1BE8969C00C4A5D0 /* Operator.swift in Sources */,
 				BD64EB8E1BBC263000FE739C /* TestQueueable.swift in Sources */,
+				D56C07841C04B89D0091D445 /* UITesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
