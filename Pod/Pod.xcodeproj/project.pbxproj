@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BD1AEEAC1B5459F800F42C58 /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */; };
-		BD64EB8C1BBC245300FE739C /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64EB8B1BBC245300FE739C /* Array+Queueable.swift */; settings = {ASSET_TAGS = (); }; };
-		BD64EB8E1BBC263000FE739C /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64EB8D1BBC263000FE739C /* TestQueueable.swift */; settings = {ASSET_TAGS = (); }; };
-		BD6E61311C05A8AE00BEBE47 /* UIView+Optimize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E61301C05A8AE00BEBE47 /* UIView+Optimize.swift */; settings = {ASSET_TAGS = (); }; };
-		BD917C3E1BE8969C00C4A5D0 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD917C3D1BE8969C00C4A5D0 /* Operator.swift */; settings = {ASSET_TAGS = (); }; };
-		BD917C401BE8971900C4A5D0 /* TestOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD917C3F1BE8971900C4A5D0 /* TestOperators.swift */; settings = {ASSET_TAGS = (); }; };
+		BD64EB8C1BBC245300FE739C /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64EB8B1BBC245300FE739C /* Array+Queueable.swift */; };
+		BD64EB8E1BBC263000FE739C /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64EB8D1BBC263000FE739C /* TestQueueable.swift */; };
+		BD66F80A1C1DB21000ED7417 /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66F8091C1DB21000ED7417 /* TestTruncate.swift */; };
+		BD6E61311C05A8AE00BEBE47 /* UIView+Optimize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E61301C05A8AE00BEBE47 /* UIView+Optimize.swift */; };
+		BD917C3E1BE8969C00C4A5D0 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD917C3D1BE8969C00C4A5D0 /* Operator.swift */; };
+		BD917C401BE8971900C4A5D0 /* TestOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD917C3F1BE8971900C4A5D0 /* TestOperators.swift */; };
+		BD95DE531C1DB11D00786B07 /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95DE521C1DB11D00786B07 /* String+Truncate.swift */; };
 		BDC58E2F1B4E755600387A84 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2C1B4E755600387A84 /* Functions.swift */; };
 		BDC58E301B4E755600387A84 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2D1B4E755600387A84 /* Simulator.swift */; };
 		BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC58E2E1B4E755600387A84 /* UnitTesting.swift */; };
 		BDD522471B52E59700998517 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD522461B52E59700998517 /* Application.swift */; };
-		D56C07841C04B89D0091D445 /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56C07831C04B89D0091D445 /* UITesting.swift */; settings = {ASSET_TAGS = (); }; };
+		D56C07841C04B89D0091D445 /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56C07831C04B89D0091D445 /* UITesting.swift */; };
 		D578D5DD1B78FB00002CCAE9 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578D5DC1B78FB00002CCAE9 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,9 +34,11 @@
 		BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLStringConvertible.swift"; sourceTree = "<group>"; };
 		BD64EB8B1BBC245300FE739C /* Array+Queueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Queueable.swift"; sourceTree = "<group>"; };
 		BD64EB8D1BBC263000FE739C /* TestQueueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestQueueable.swift; sourceTree = "<group>"; };
+		BD66F8091C1DB21000ED7417 /* TestTruncate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTruncate.swift; sourceTree = "<group>"; };
 		BD6E61301C05A8AE00BEBE47 /* UIView+Optimize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Optimize.swift"; sourceTree = "<group>"; };
 		BD917C3D1BE8969C00C4A5D0 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		BD917C3F1BE8971900C4A5D0 /* TestOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOperators.swift; sourceTree = "<group>"; };
+		BD95DE521C1DB11D00786B07 /* String+Truncate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Truncate.swift"; sourceTree = "<group>"; };
 		BDC58E2A1B4E735900387A84 /* Sugar.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Sugar.podspec; path = ../Sugar.podspec; sourceTree = "<group>"; };
 		BDC58E2C1B4E755600387A84 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		BDC58E2D1B4E755600387A84 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
@@ -80,9 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				146D72B01AB782920058798C /* Supporting Files */,
-				14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */,
-				BD64EB8D1BBC263000FE739C /* TestQueueable.swift */,
 				BD917C3F1BE8971900C4A5D0 /* TestOperators.swift */,
+				BD64EB8D1BBC263000FE739C /* TestQueueable.swift */,
+				14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */,
+				BD66F8091C1DB21000ED7417 /* TestTruncate.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -109,9 +114,10 @@
 		BD1AEEAA1B5459C200F42C58 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BD6E61301C05A8AE00BEBE47 /* UIView+Optimize.swift */,
-				BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */,
 				BD64EB8B1BBC245300FE739C /* Array+Queueable.swift */,
+				BD95DE521C1DB11D00786B07 /* String+Truncate.swift */,
+				BD1AEEAB1B5459F800F42C58 /* String+URLStringConvertible.swift */,
+				BD6E61301C05A8AE00BEBE47 /* UIView+Optimize.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -119,14 +125,14 @@
 		BDC58E2B1B4E755600387A84 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BD1AEEAA1B5459C200F42C58 /* Extensions */,
-				BDC58E2C1B4E755600387A84 /* Functions.swift */,
-				BDC58E2D1B4E755600387A84 /* Simulator.swift */,
-				BDC58E2E1B4E755600387A84 /* UnitTesting.swift */,
 				BDD522461B52E59700998517 /* Application.swift */,
-				D578D5DC1B78FB00002CCAE9 /* Screen.swift */,
+				BDC58E2C1B4E755600387A84 /* Functions.swift */,
 				BD917C3D1BE8969C00C4A5D0 /* Operator.swift */,
+				D578D5DC1B78FB00002CCAE9 /* Screen.swift */,
+				BDC58E2D1B4E755600387A84 /* Simulator.swift */,
 				D56C07831C04B89D0091D445 /* UITesting.swift */,
+				BDC58E2E1B4E755600387A84 /* UnitTesting.swift */,
+				BD1AEEAA1B5459C200F42C58 /* Extensions */,
 			);
 			name = Source;
 			path = ../Source;
@@ -203,11 +209,13 @@
 				D578D5DD1B78FB00002CCAE9 /* Screen.swift in Sources */,
 				BDD522471B52E59700998517 /* Application.swift in Sources */,
 				BD64EB8C1BBC245300FE739C /* Array+Queueable.swift in Sources */,
+				BD66F80A1C1DB21000ED7417 /* TestTruncate.swift in Sources */,
 				BD917C401BE8971900C4A5D0 /* TestOperators.swift in Sources */,
 				BDC58E2F1B4E755600387A84 /* Functions.swift in Sources */,
 				BD6E61311C05A8AE00BEBE47 /* UIView+Optimize.swift in Sources */,
 				BD1AEEAC1B5459F800F42C58 /* String+URLStringConvertible.swift in Sources */,
 				BDC58E311B4E755600387A84 /* UnitTesting.swift in Sources */,
+				BD95DE531C1DB11D00786B07 /* String+Truncate.swift in Sources */,
 				BDC58E301B4E755600387A84 /* Simulator.swift in Sources */,
 				BD917C3E1BE8969C00C4A5D0 /* Operator.swift in Sources */,
 				BD64EB8E1BBC263000FE739C /* TestQueueable.swift in Sources */,
