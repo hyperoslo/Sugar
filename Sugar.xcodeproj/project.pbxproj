@@ -7,25 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDA447931C2946BC003FDEAD /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA447891C2946BB003FDEAD /* Sugar.framework */; };
+		BDA447B21C29471C003FDEAD /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A21C29470D003FDEAD /* Application.swift */; };
+		BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */; };
+		BDA447B41C29471C003FDEAD /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A51C29470D003FDEAD /* Screen.swift */; };
+		BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A61C29470D003FDEAD /* Simulator.swift */; };
+		BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */; };
+		BDA447B71C294723003FDEAD /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AB1C29470D003FDEAD /* String+Truncate.swift */; };
+		BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */; };
+		BDA447B91C294723003FDEAD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AD1C29470D003FDEAD /* Functions.swift */; };
+		BDA447BA1C294723003FDEAD /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AE1C29470D003FDEAD /* Operator.swift */; };
+		BDA447BB1C294723003FDEAD /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AF1C29470D003FDEAD /* TypeAlias.swift */; };
+		BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B01C29470D003FDEAD /* UITesting.swift */; };
+		BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B11C29470D003FDEAD /* UnitTesting.swift */; };
+		BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */; };
+		BDA447BF1C294729003FDEAD /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AB1C29470D003FDEAD /* String+Truncate.swift */; };
+		BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */; };
+		BDA447C11C294729003FDEAD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AD1C29470D003FDEAD /* Functions.swift */; };
+		BDA447C21C294729003FDEAD /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AE1C29470D003FDEAD /* Operator.swift */; };
+		BDA447C31C294729003FDEAD /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AF1C29470D003FDEAD /* TypeAlias.swift */; };
+		BDA447C41C294729003FDEAD /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B01C29470D003FDEAD /* UITesting.swift */; };
+		BDA447C51C294729003FDEAD /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B11C29470D003FDEAD /* UnitTesting.swift */; };
+		BDA447CA1C294787003FDEAD /* TestOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C71C294787003FDEAD /* TestOperators.swift */; };
+		BDA447CB1C294787003FDEAD /* TestOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C71C294787003FDEAD /* TestOperators.swift */; };
+		BDA447CC1C294787003FDEAD /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C81C294787003FDEAD /* TestQueueable.swift */; };
+		BDA447CD1C294787003FDEAD /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C81C294787003FDEAD /* TestQueueable.swift */; };
+		BDA447CE1C294787003FDEAD /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C91C294787003FDEAD /* TestTruncate.swift */; };
+		BDA447CF1C294787003FDEAD /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C91C294787003FDEAD /* TestTruncate.swift */; };
 		D56DAA831C206516003E7253 /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56DAA781C206516003E7253 /* Sugar.framework */; };
-		D56DAAAE1C206991003E7253 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAA9B1C206991003E7253 /* Application.swift */; };
-		D56DAAAF1C206991003E7253 /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAA9D1C206991003E7253 /* Array+Queueable.swift */; };
-		D56DAAB01C206991003E7253 /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAA9E1C206991003E7253 /* String+Truncate.swift */; };
-		D56DAAB11C206991003E7253 /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAA9F1C206991003E7253 /* String+URLStringConvertible.swift */; };
-		D56DAAB21C206991003E7253 /* UIView+Optimize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA01C206991003E7253 /* UIView+Optimize.swift */; };
-		D56DAAB31C206991003E7253 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA11C206991003E7253 /* Functions.swift */; };
-		D56DAAB41C206991003E7253 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA21C206991003E7253 /* Operator.swift */; };
-		D56DAAB51C206991003E7253 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA31C206991003E7253 /* Screen.swift */; };
-		D56DAAB61C206991003E7253 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA41C206991003E7253 /* Simulator.swift */; };
-		D56DAAB71C206991003E7253 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA51C206991003E7253 /* TypeAlias.swift */; };
-		D56DAAB81C206991003E7253 /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA61C206991003E7253 /* UITesting.swift */; };
-		D56DAAB91C206991003E7253 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAAA71C206991003E7253 /* UnitTesting.swift */; };
-		D56DAABD1C2069C3003E7253 /* TestOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAA961C206991003E7253 /* TestOperators.swift */; };
-		D56DAABE1C2069C3003E7253 /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAA971C206991003E7253 /* TestQueueable.swift */; };
-		D56DAABF1C2069C3003E7253 /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DAA991C206991003E7253 /* TestTruncate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BDA447941C2946BC003FDEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56DAA6F1C206516003E7253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA447881C2946BB003FDEAD;
+			remoteInfo = "Sugar-Mac";
+		};
 		D56DAA841C206516003E7253 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D56DAA6F1C206516003E7253 /* Project object */;
@@ -36,28 +55,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDA447891C2946BB003FDEAD /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA447921C2946BC003FDEAD /* Tests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA447A21C29470D003FDEAD /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Optimize.swift"; sourceTree = "<group>"; };
+		BDA447A51C29470D003FDEAD /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		BDA447A61C29470D003FDEAD /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
+		BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Queueable.swift"; sourceTree = "<group>"; };
+		BDA447AB1C29470D003FDEAD /* String+Truncate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Truncate.swift"; sourceTree = "<group>"; };
+		BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URLStringConvertible.swift"; sourceTree = "<group>"; };
+		BDA447AD1C29470D003FDEAD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		BDA447AE1C29470D003FDEAD /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		BDA447AF1C29470D003FDEAD /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		BDA447B01C29470D003FDEAD /* UITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITesting.swift; sourceTree = "<group>"; };
+		BDA447B11C29470D003FDEAD /* UnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
+		BDA447C71C294787003FDEAD /* TestOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOperators.swift; sourceTree = "<group>"; };
+		BDA447C81C294787003FDEAD /* TestQueueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestQueueable.swift; sourceTree = "<group>"; };
+		BDA447C91C294787003FDEAD /* TestTruncate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTruncate.swift; sourceTree = "<group>"; };
+		BDA447D11C294877003FDEAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA447D31C294877003FDEAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA447DA1C294925003FDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA447DC1C294925003FDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D56DAA781C206516003E7253 /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56DAA821C206516003E7253 /* Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D56DAA931C206991003E7253 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D56DAA951C206991003E7253 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D56DAA961C206991003E7253 /* TestOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOperators.swift; sourceTree = "<group>"; };
-		D56DAA971C206991003E7253 /* TestQueueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestQueueable.swift; sourceTree = "<group>"; };
-		D56DAA991C206991003E7253 /* TestTruncate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTruncate.swift; sourceTree = "<group>"; };
-		D56DAA9B1C206991003E7253 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
-		D56DAA9D1C206991003E7253 /* Array+Queueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Queueable.swift"; sourceTree = "<group>"; };
-		D56DAA9E1C206991003E7253 /* String+Truncate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Truncate.swift"; sourceTree = "<group>"; };
-		D56DAA9F1C206991003E7253 /* String+URLStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLStringConvertible.swift"; sourceTree = "<group>"; };
-		D56DAAA01C206991003E7253 /* UIView+Optimize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Optimize.swift"; sourceTree = "<group>"; };
-		D56DAAA11C206991003E7253 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		D56DAAA21C206991003E7253 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
-		D56DAAA31C206991003E7253 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
-		D56DAAA41C206991003E7253 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
-		D56DAAA51C206991003E7253 /* TypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
-		D56DAAA61C206991003E7253 /* UITesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITesting.swift; sourceTree = "<group>"; };
-		D56DAAA71C206991003E7253 /* UnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BDA447851C2946BB003FDEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA4478F1C2946BC003FDEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA447931C2946BC003FDEAD /* Sugar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D56DAA741C206516003E7253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,13 +114,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDA447A01C29470D003FDEAD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447A11C29470D003FDEAD /* iOS */,
+				BDA447A71C29470D003FDEAD /* OS X */,
+				BDA447A81C29470D003FDEAD /* Shared */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BDA447A11C29470D003FDEAD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447A21C29470D003FDEAD /* Application.swift */,
+				BDA447A31C29470D003FDEAD /* Extensions */,
+				BDA447A51C29470D003FDEAD /* Screen.swift */,
+				BDA447A61C29470D003FDEAD /* Simulator.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		BDA447A31C29470D003FDEAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDA447A71C29470D003FDEAD /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "OS X";
+			sourceTree = "<group>";
+		};
+		BDA447A81C29470D003FDEAD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447A91C29470D003FDEAD /* Extensions */,
+				BDA447AD1C29470D003FDEAD /* Functions.swift */,
+				BDA447AE1C29470D003FDEAD /* Operator.swift */,
+				BDA447AF1C29470D003FDEAD /* TypeAlias.swift */,
+				BDA447B01C29470D003FDEAD /* UITesting.swift */,
+				BDA447B11C29470D003FDEAD /* UnitTesting.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BDA447A91C29470D003FDEAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */,
+				BDA447AB1C29470D003FDEAD /* String+Truncate.swift */,
+				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDA447C61C294787003FDEAD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447C71C294787003FDEAD /* TestOperators.swift */,
+				BDA447C81C294787003FDEAD /* TestQueueable.swift */,
+				BDA447C91C294787003FDEAD /* TestTruncate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BDA447D01C294877003FDEAD /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447D11C294877003FDEAD /* Info.plist */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		BDA447D21C294877003FDEAD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447D31C294877003FDEAD /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		BDA447D81C294925003FDEAD /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447D91C294925003FDEAD /* iOS */,
+				BDA447DB1C294925003FDEAD /* Mac */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		BDA447D91C294925003FDEAD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447DA1C294925003FDEAD /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		BDA447DB1C294925003FDEAD /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				BDA447DC1C294925003FDEAD /* Info.plist */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
 		D56DAA6E1C206516003E7253 = {
 			isa = PBXGroup;
 			children = (
-				D56DAA921C206991003E7253 /* SupportFiles */,
-				D56DAA941C206991003E7253 /* Tests */,
-				D56DAA9A1C206991003E7253 /* Source */,
 				D56DAA791C206516003E7253 /* Products */,
+				BDA447A01C29470D003FDEAD /* Source */,
+				BDA447D81C294925003FDEAD /* SupportFiles */,
+				D56DAA941C206991003E7253 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,59 +239,32 @@
 			children = (
 				D56DAA781C206516003E7253 /* Sugar.framework */,
 				D56DAA821C206516003E7253 /* Tests-iOS.xctest */,
+				BDA447891C2946BB003FDEAD /* Sugar.framework */,
+				BDA447921C2946BC003FDEAD /* Tests-Mac.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D56DAA921C206991003E7253 /* SupportFiles */ = {
-			isa = PBXGroup;
-			children = (
-				D56DAA931C206991003E7253 /* Info.plist */,
-			);
-			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 		D56DAA941C206991003E7253 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D56DAA951C206991003E7253 /* Info.plist */,
-				D56DAA961C206991003E7253 /* TestOperators.swift */,
-				D56DAA971C206991003E7253 /* TestQueueable.swift */,
-				D56DAA991C206991003E7253 /* TestTruncate.swift */,
+				BDA447D01C294877003FDEAD /* Mac */,
+				BDA447D21C294877003FDEAD /* iOS */,
+				BDA447C61C294787003FDEAD /* Shared */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		D56DAA9A1C206991003E7253 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				D56DAA9B1C206991003E7253 /* Application.swift */,
-				D56DAA9C1C206991003E7253 /* Extensions */,
-				D56DAAA11C206991003E7253 /* Functions.swift */,
-				D56DAAA21C206991003E7253 /* Operator.swift */,
-				D56DAAA31C206991003E7253 /* Screen.swift */,
-				D56DAAA41C206991003E7253 /* Simulator.swift */,
-				D56DAAA51C206991003E7253 /* TypeAlias.swift */,
-				D56DAAA61C206991003E7253 /* UITesting.swift */,
-				D56DAAA71C206991003E7253 /* UnitTesting.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		D56DAA9C1C206991003E7253 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D56DAA9D1C206991003E7253 /* Array+Queueable.swift */,
-				D56DAA9E1C206991003E7253 /* String+Truncate.swift */,
-				D56DAA9F1C206991003E7253 /* String+URLStringConvertible.swift */,
-				D56DAAA01C206991003E7253 /* UIView+Optimize.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		BDA447861C2946BB003FDEAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D56DAA751C206516003E7253 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +275,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BDA447881C2946BB003FDEAD /* Sugar-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA4479E1C2946BC003FDEAD /* Build configuration list for PBXNativeTarget "Sugar-Mac" */;
+			buildPhases = (
+				BDA447841C2946BB003FDEAD /* Sources */,
+				BDA447851C2946BB003FDEAD /* Frameworks */,
+				BDA447861C2946BB003FDEAD /* Headers */,
+				BDA447871C2946BB003FDEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sugar-Mac";
+			productName = "Sugar-Mac";
+			productReference = BDA447891C2946BB003FDEAD /* Sugar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDA447911C2946BC003FDEAD /* Tests-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA4479F1C2946BC003FDEAD /* Build configuration list for PBXNativeTarget "Tests-Mac" */;
+			buildPhases = (
+				BDA4478E1C2946BC003FDEAD /* Sources */,
+				BDA4478F1C2946BC003FDEAD /* Frameworks */,
+				BDA447901C2946BC003FDEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA447951C2946BC003FDEAD /* PBXTargetDependency */,
+			);
+			name = "Tests-Mac";
+			productName = "Sugar-MacTests";
+			productReference = BDA447921C2946BC003FDEAD /* Tests-Mac.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D56DAA771C206516003E7253 /* Sugar-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D56DAA8C1C206516003E7253 /* Build configuration list for PBXNativeTarget "Sugar-iOS" */;
@@ -200,6 +357,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Hyper Interaktiv AS";
 				TargetAttributes = {
+					BDA447881C2946BB003FDEAD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BDA447911C2946BC003FDEAD = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					D56DAA771C206516003E7253 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -222,11 +385,27 @@
 			targets = (
 				D56DAA771C206516003E7253 /* Sugar-iOS */,
 				D56DAA811C206516003E7253 /* Tests-iOS */,
+				BDA447881C2946BB003FDEAD /* Sugar-Mac */,
+				BDA447911C2946BC003FDEAD /* Tests-Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BDA447871C2946BB003FDEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA447901C2946BC003FDEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D56DAA761C206516003E7253 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,22 +423,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BDA447841C2946BB003FDEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */,
+				BDA447BF1C294729003FDEAD /* String+Truncate.swift in Sources */,
+				BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */,
+				BDA447C11C294729003FDEAD /* Functions.swift in Sources */,
+				BDA447C21C294729003FDEAD /* Operator.swift in Sources */,
+				BDA447C31C294729003FDEAD /* TypeAlias.swift in Sources */,
+				BDA447C41C294729003FDEAD /* UITesting.swift in Sources */,
+				BDA447C51C294729003FDEAD /* UnitTesting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA4478E1C2946BC003FDEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA447CD1C294787003FDEAD /* TestQueueable.swift in Sources */,
+				BDA447CB1C294787003FDEAD /* TestOperators.swift in Sources */,
+				BDA447CF1C294787003FDEAD /* TestTruncate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D56DAA731C206516003E7253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56DAAB01C206991003E7253 /* String+Truncate.swift in Sources */,
-				D56DAAAE1C206991003E7253 /* Application.swift in Sources */,
-				D56DAAB61C206991003E7253 /* Simulator.swift in Sources */,
-				D56DAAB31C206991003E7253 /* Functions.swift in Sources */,
-				D56DAAB81C206991003E7253 /* UITesting.swift in Sources */,
-				D56DAAB51C206991003E7253 /* Screen.swift in Sources */,
-				D56DAAB21C206991003E7253 /* UIView+Optimize.swift in Sources */,
-				D56DAAB41C206991003E7253 /* Operator.swift in Sources */,
-				D56DAAB71C206991003E7253 /* TypeAlias.swift in Sources */,
-				D56DAAB91C206991003E7253 /* UnitTesting.swift in Sources */,
-				D56DAAB11C206991003E7253 /* String+URLStringConvertible.swift in Sources */,
-				D56DAAAF1C206991003E7253 /* Array+Queueable.swift in Sources */,
+				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
+				BDA447B71C294723003FDEAD /* String+Truncate.swift in Sources */,
+				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
+				BDA447B91C294723003FDEAD /* Functions.swift in Sources */,
+				BDA447BA1C294723003FDEAD /* Operator.swift in Sources */,
+				BDA447BB1C294723003FDEAD /* TypeAlias.swift in Sources */,
+				BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */,
+				BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */,
+				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
+				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
+				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
+				BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,15 +471,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56DAABF1C2069C3003E7253 /* TestTruncate.swift in Sources */,
-				D56DAABD1C2069C3003E7253 /* TestOperators.swift in Sources */,
-				D56DAABE1C2069C3003E7253 /* TestQueueable.swift in Sources */,
+				BDA447CE1C294787003FDEAD /* TestTruncate.swift in Sources */,
+				BDA447CA1C294787003FDEAD /* TestOperators.swift in Sources */,
+				BDA447CC1C294787003FDEAD /* TestQueueable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BDA447951C2946BC003FDEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA447881C2946BB003FDEAD /* Sugar-Mac */;
+			targetProxy = BDA447941C2946BC003FDEAD /* PBXContainerItemProxy */;
+		};
 		D56DAA851C206516003E7253 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D56DAA771C206516003E7253 /* Sugar-iOS */;
@@ -284,6 +493,76 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BDA4479A1C2946BC003FDEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Sugar-Mac";
+				PRODUCT_NAME = Sugar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BDA4479B1C2946BC003FDEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Sugar-Mac";
+				PRODUCT_NAME = Sugar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BDA4479C1C2946BC003FDEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Sugar-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDA4479D1C2946BC003FDEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Sugar-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		D56DAA8A1C206516003E7253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -380,7 +659,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -397,7 +676,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -410,7 +689,7 @@
 		D56DAA901C206516003E7253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SugarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,7 +699,7 @@
 		D56DAA911C206516003E7253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SugarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +709,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BDA4479E1C2946BC003FDEAD /* Build configuration list for PBXNativeTarget "Sugar-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA4479A1C2946BC003FDEAD /* Debug */,
+				BDA4479B1C2946BC003FDEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDA4479F1C2946BC003FDEAD /* Build configuration list for PBXNativeTarget "Tests-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA4479C1C2946BC003FDEAD /* Debug */,
+				BDA4479D1C2946BC003FDEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D56DAA721C206516003E7253 /* Build configuration list for PBXProject "Sugar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
