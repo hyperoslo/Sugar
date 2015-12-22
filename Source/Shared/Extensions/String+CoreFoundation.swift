@@ -13,4 +13,10 @@ public extension String {
 
     return self.substringToIndex(self.startIndex.advancedBy(length)) + suffix
   }
+
+  func split(delimiter: Character) -> [String] {
+    return characters
+      .split { $0 == delimiter }
+      .map(String.init)
+  }
 }
