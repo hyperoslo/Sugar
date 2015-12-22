@@ -13,7 +13,6 @@
 		BDA447B41C29471C003FDEAD /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A51C29470D003FDEAD /* Screen.swift */; };
 		BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A61C29470D003FDEAD /* Simulator.swift */; };
 		BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */; };
-		BDA447B71C294723003FDEAD /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AB1C29470D003FDEAD /* String+Truncate.swift */; };
 		BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */; };
 		BDA447B91C294723003FDEAD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AD1C29470D003FDEAD /* Functions.swift */; };
 		BDA447BA1C294723003FDEAD /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AE1C29470D003FDEAD /* Operator.swift */; };
@@ -21,7 +20,6 @@
 		BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B01C29470D003FDEAD /* UITesting.swift */; };
 		BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B11C29470D003FDEAD /* UnitTesting.swift */; };
 		BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */; };
-		BDA447BF1C294729003FDEAD /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AB1C29470D003FDEAD /* String+Truncate.swift */; };
 		BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */; };
 		BDA447C11C294729003FDEAD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AD1C29470D003FDEAD /* Functions.swift */; };
 		BDA447C21C294729003FDEAD /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AE1C29470D003FDEAD /* Operator.swift */; };
@@ -34,6 +32,9 @@
 		BDA447CD1C294787003FDEAD /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C81C294787003FDEAD /* TestQueueable.swift */; };
 		BDA447CE1C294787003FDEAD /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C91C294787003FDEAD /* TestTruncate.swift */; };
 		BDA447CF1C294787003FDEAD /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C91C294787003FDEAD /* TestTruncate.swift */; };
+		BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */; };
+		BDA4481C1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */; };
+		BDA4481D1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */; };
 		D56DAA831C206516003E7253 /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56DAA781C206516003E7253 /* Sugar.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +63,6 @@
 		BDA447A51C29470D003FDEAD /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		BDA447A61C29470D003FDEAD /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 		BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Queueable.swift"; sourceTree = "<group>"; };
-		BDA447AB1C29470D003FDEAD /* String+Truncate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Truncate.swift"; sourceTree = "<group>"; };
 		BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URLStringConvertible.swift"; sourceTree = "<group>"; };
 		BDA447AD1C29470D003FDEAD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		BDA447AE1C29470D003FDEAD /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
@@ -76,6 +76,8 @@
 		BDA447D31C294877003FDEAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA447DA1C294925003FDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA447DC1C294925003FDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CoreFoundation.swift"; sourceTree = "<group>"; };
+		BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStringExtensionCoreFoundation.swift; sourceTree = "<group>"; };
 		D56DAA781C206516003E7253 /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56DAA821C206516003E7253 /* Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -167,8 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */,
-				BDA447AB1C29470D003FDEAD /* String+Truncate.swift */,
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
+				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -179,6 +181,7 @@
 				BDA447C71C294787003FDEAD /* TestOperators.swift */,
 				BDA447C81C294787003FDEAD /* TestQueueable.swift */,
 				BDA447C91C294787003FDEAD /* TestTruncate.swift */,
+				BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -428,7 +431,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */,
-				BDA447BF1C294729003FDEAD /* String+Truncate.swift in Sources */,
 				BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				BDA447C11C294729003FDEAD /* Functions.swift in Sources */,
 				BDA447C21C294729003FDEAD /* Operator.swift in Sources */,
@@ -444,6 +446,7 @@
 			files = (
 				BDA447CD1C294787003FDEAD /* TestQueueable.swift in Sources */,
 				BDA447CB1C294787003FDEAD /* TestOperators.swift in Sources */,
+				BDA4481D1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CF1C294787003FDEAD /* TestTruncate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,7 +456,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
-				BDA447B71C294723003FDEAD /* String+Truncate.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				BDA447B91C294723003FDEAD /* Functions.swift in Sources */,
 				BDA447BA1C294723003FDEAD /* Operator.swift in Sources */,
@@ -464,6 +466,7 @@
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
 				BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */,
+				BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +476,7 @@
 			files = (
 				BDA447CE1C294787003FDEAD /* TestTruncate.swift in Sources */,
 				BDA447CA1C294787003FDEAD /* TestOperators.swift in Sources */,
+				BDA4481C1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CC1C294787003FDEAD /* TestQueueable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -716,6 +720,7 @@
 				BDA4479B1C2946BC003FDEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA4479F1C2946BC003FDEAD /* Build configuration list for PBXNativeTarget "Tests-Mac" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +729,7 @@
 				BDA4479D1C2946BC003FDEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D56DAA721C206516003E7253 /* Build configuration list for PBXProject "Sugar" */ = {
 			isa = XCConfigurationList;
