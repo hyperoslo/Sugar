@@ -34,6 +34,7 @@
 		BDA447CD1C294787003FDEAD /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C81C294787003FDEAD /* TestQueueable.swift */; };
 		BDA447CE1C294787003FDEAD /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C91C294787003FDEAD /* TestTruncate.swift */; };
 		BDA447CF1C294787003FDEAD /* TestTruncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C91C294787003FDEAD /* TestTruncate.swift */; };
+		BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */; };
 		D56DAA831C206516003E7253 /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56DAA781C206516003E7253 /* Sugar.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		BDA447D31C294877003FDEAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA447DA1C294925003FDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA447DC1C294925003FDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CoreFoundation.swift"; sourceTree = "<group>"; };
 		D56DAA781C206516003E7253 /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56DAA821C206516003E7253 /* Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +171,7 @@
 				BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */,
 				BDA447AB1C29470D003FDEAD /* String+Truncate.swift */,
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
+				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
 				BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */,
+				BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +720,7 @@
 				BDA4479B1C2946BC003FDEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA4479F1C2946BC003FDEAD /* Build configuration list for PBXNativeTarget "Tests-Mac" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +729,7 @@
 				BDA4479D1C2946BC003FDEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D56DAA721C206516003E7253 /* Build configuration list for PBXProject "Sugar" */ = {
 			isa = XCConfigurationList;
