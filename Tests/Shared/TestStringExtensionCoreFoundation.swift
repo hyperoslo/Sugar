@@ -16,4 +16,12 @@ class StringExtensionCoreFoundationTests: XCTestCase {
     XCTAssertNotEqual(testString.lengthOfBytesUsingEncoding(NSUTF8StringEncoding), testString.length)
   }
 
+  func testStringReplace() {
+    let stringA = "-foo-"
+    let stringB = ":foo:"
+    let stringC = stringA.replace("-", with: ":")
+
+    XCTAssertEqual(stringB, stringC)
+    XCTAssertEqual(stringC, stringA.stringByReplacingOccurrencesOfString("-", withString: ":"))
+  }
 }
