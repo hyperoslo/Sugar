@@ -9,9 +9,9 @@ class StringExtensionCoreFoundationTests: XCTestCase {
 
     XCTAssertEqual(testString.characters.count, testString.length)
     XCTAssertEqual(testString.lengthOfBytesUsingEncoding(NSUTF8StringEncoding), testString.length)
-    
+
     testString = "Hyper🚀"
-    
+
     XCTAssertEqual(testString.characters.count, testString.length)
     XCTAssertNotEqual(testString.lengthOfBytesUsingEncoding(NSUTF8StringEncoding), testString.length)
   }
