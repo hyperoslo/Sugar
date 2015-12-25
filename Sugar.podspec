@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'Source/{iOS,Shared}/**/*'
   s.osx.source_files = 'Source/{Mac,Shared}/**/*'
 
-  s.frameworks = 'Foundation'
+  s.frameworks = 'Foundation', 'QuartzCore'
 end
