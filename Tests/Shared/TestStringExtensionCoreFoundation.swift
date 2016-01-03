@@ -24,4 +24,10 @@ class StringExtensionCoreFoundationTests: XCTestCase {
     XCTAssertEqual(stringB, stringC)
     XCTAssertEqual(stringC, stringA.stringByReplacingOccurrencesOfString("-", withString: ":"))
   }
+
+  func testStringSplit() {
+    let testString = "root/path/file"
+    let parts = testString.split("/")
+    XCTAssertEqual(parts.count, 3)
+  }
 }

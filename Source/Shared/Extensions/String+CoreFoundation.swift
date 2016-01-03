@@ -13,4 +13,8 @@ public extension String {
 
     return self.substringToIndex(self.startIndex.advancedBy(length)) + suffix
   }
+
+  func split(delimiter: String) -> [String] {
+    return componentsSeparatedByString(delimiter)
+  }
 }
