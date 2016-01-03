@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD18D5A21C391926002E6547 /* TestThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18D5A11C391926002E6547 /* TestThen.swift */; };
 		BD37B4EF1C2C07220069CD4A /* TestUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */; };
 		BD37B4F01C2C07220069CD4A /* TestUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */; };
 		BD37B4F11C2C08430069CD4A /* String+CoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */; };
@@ -38,6 +39,9 @@
 		BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */; };
 		BDA4481C1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */; };
 		BDA4481D1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */; };
+		BDAF15621C3917110008A5D6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15611C3917110008A5D6 /* Then.swift */; };
+		BDAF15631C3917110008A5D6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15611C3917110008A5D6 /* Then.swift */; };
+		BDAF15651C3917A90008A5D6 /* TestThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15641C3917A90008A5D6 /* TestThen.swift */; };
 		D56DAA831C206516003E7253 /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56DAA781C206516003E7253 /* Sugar.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD18D5A11C391926002E6547 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
 		BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUnitTesting.swift; sourceTree = "<group>"; };
 		BDA447891C2946BB003FDEAD /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA447921C2946BC003FDEAD /* Tests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +87,8 @@
 		BDA447DC1C294925003FDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CoreFoundation.swift"; sourceTree = "<group>"; };
 		BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStringExtensionCoreFoundation.swift; sourceTree = "<group>"; };
+		BDAF15611C3917110008A5D6 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		BDAF15641C3917A90008A5D6 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
 		D56DAA781C206516003E7253 /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56DAA821C206516003E7253 /* Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -165,6 +172,7 @@
 				BDA447AF1C29470D003FDEAD /* TypeAlias.swift */,
 				BDA447B01C29470D003FDEAD /* UITesting.swift */,
 				BDA447B11C29470D003FDEAD /* UnitTesting.swift */,
+				BDAF15611C3917110008A5D6 /* Then.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -195,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				BDA447D11C294877003FDEAD /* Info.plist */,
+				BD18D5A11C391926002E6547 /* TestThen.swift */,
 			);
 			path = Mac;
 			sourceTree = "<group>";
@@ -203,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				BDA447D31C294877003FDEAD /* Info.plist */,
+				BDAF15641C3917A90008A5D6 /* TestThen.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -436,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD37B4F11C2C08430069CD4A /* String+CoreFoundation.swift in Sources */,
+				BDAF15631C3917110008A5D6 /* Then.swift in Sources */,
 				BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				BDA447C11C294729003FDEAD /* Functions.swift in Sources */,
@@ -454,6 +465,7 @@
 				BDA447CB1C294787003FDEAD /* TestOperators.swift in Sources */,
 				BDA4481D1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CF1C294787003FDEAD /* TestTruncate.swift in Sources */,
+				BD18D5A21C391926002E6547 /* TestThen.swift in Sources */,
 				BD37B4F01C2C07220069CD4A /* TestUnitTesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +481,7 @@
 				BDA447BB1C294723003FDEAD /* TypeAlias.swift in Sources */,
 				BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */,
 				BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */,
+				BDAF15621C3917110008A5D6 /* Then.swift in Sources */,
 				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
@@ -482,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA447CE1C294787003FDEAD /* TestTruncate.swift in Sources */,
+				BDAF15651C3917A90008A5D6 /* TestThen.swift in Sources */,
 				BDA447CA1C294787003FDEAD /* TestOperators.swift in Sources */,
 				BDA4481C1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CC1C294787003FDEAD /* TestQueueable.swift in Sources */,
