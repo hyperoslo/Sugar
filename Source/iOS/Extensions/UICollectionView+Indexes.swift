@@ -23,7 +23,7 @@ public extension UICollectionView {
     }
   }
 
-  func remove(indexes: [Int], section: Int = 0, completion: (() -> Void)? = nil) {
+  func delete(indexes: [Int], section: Int = 0, completion: (() -> Void)? = nil) {
     let indexPaths = indexes.map { NSIndexPath(forItem: $0, inSection: section) }
     performBatchUpdates({ [weak self] in
       guard let weakSelf = self else { return }
