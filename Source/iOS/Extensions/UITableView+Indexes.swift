@@ -23,7 +23,7 @@ public extension UITableView {
     }
   }
 
-  func performUpdates(@noescape closure: () -> Void) {
+  private func performUpdates(@noescape closure: () -> Void) {
     beginUpdates()
     closure()
     endUpdates()
