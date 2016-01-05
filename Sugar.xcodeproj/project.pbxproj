@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
+		BD0E01C91C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
+		BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01CA1C3BCFEF0092C477 /* Localization.swift */; };
+		BD0E01CC1C3BCFEF0092C477 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01CA1C3BCFEF0092C477 /* Localization.swift */; };
 		BD18D5A21C391926002E6547 /* TestThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18D5A11C391926002E6547 /* TestThen.swift */; };
 		BD37B4EF1C2C07220069CD4A /* TestUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */; };
 		BD37B4F01C2C07220069CD4A /* TestUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */; };
@@ -18,14 +22,12 @@
 		BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A61C29470D003FDEAD /* Simulator.swift */; };
 		BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */; };
 		BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */; };
-		BDA447B91C294723003FDEAD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AD1C29470D003FDEAD /* Functions.swift */; };
 		BDA447BA1C294723003FDEAD /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AE1C29470D003FDEAD /* Operator.swift */; };
 		BDA447BB1C294723003FDEAD /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AF1C29470D003FDEAD /* TypeAlias.swift */; };
 		BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B01C29470D003FDEAD /* UITesting.swift */; };
 		BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B11C29470D003FDEAD /* UnitTesting.swift */; };
 		BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */; };
 		BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */; };
-		BDA447C11C294729003FDEAD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AD1C29470D003FDEAD /* Functions.swift */; };
 		BDA447C21C294729003FDEAD /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AE1C29470D003FDEAD /* Operator.swift */; };
 		BDA447C31C294729003FDEAD /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447AF1C29470D003FDEAD /* TypeAlias.swift */; };
 		BDA447C41C294729003FDEAD /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447B01C29470D003FDEAD /* UITesting.swift */; };
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandCentralDispatch.swift; sourceTree = "<group>"; };
+		BD0E01CA1C3BCFEF0092C477 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		BD18D5A11C391926002E6547 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
 		BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUnitTesting.swift; sourceTree = "<group>"; };
 		BDA447891C2946BB003FDEAD /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +77,6 @@
 		BDA447A61C29470D003FDEAD /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 		BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Queueable.swift"; sourceTree = "<group>"; };
 		BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URLStringConvertible.swift"; sourceTree = "<group>"; };
-		BDA447AD1C29470D003FDEAD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		BDA447AE1C29470D003FDEAD /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		BDA447AF1C29470D003FDEAD /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		BDA447B01C29470D003FDEAD /* UITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITesting.swift; sourceTree = "<group>"; };
@@ -167,12 +170,13 @@
 			isa = PBXGroup;
 			children = (
 				BDA447A91C29470D003FDEAD /* Extensions */,
-				BDA447AD1C29470D003FDEAD /* Functions.swift */,
 				BDA447AE1C29470D003FDEAD /* Operator.swift */,
 				BDA447AF1C29470D003FDEAD /* TypeAlias.swift */,
 				BDA447B01C29470D003FDEAD /* UITesting.swift */,
 				BDA447B11C29470D003FDEAD /* UnitTesting.swift */,
 				BDAF15611C3917110008A5D6 /* Then.swift */,
+				BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */,
+				BD0E01CA1C3BCFEF0092C477 /* Localization.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -446,10 +450,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD37B4F11C2C08430069CD4A /* String+CoreFoundation.swift in Sources */,
+				BD0E01CC1C3BCFEF0092C477 /* Localization.swift in Sources */,
 				BDAF15631C3917110008A5D6 /* Then.swift in Sources */,
+				BD0E01C91C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */,
 				BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */,
-				BDA447C11C294729003FDEAD /* Functions.swift in Sources */,
 				BDA447C21C294729003FDEAD /* Operator.swift in Sources */,
 				BDA447C31C294729003FDEAD /* TypeAlias.swift in Sources */,
 				BDA447C41C294729003FDEAD /* UITesting.swift in Sources */,
@@ -476,14 +481,15 @@
 			files = (
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
-				BDA447B91C294723003FDEAD /* Functions.swift in Sources */,
 				BDA447BA1C294723003FDEAD /* Operator.swift in Sources */,
+				BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */,
 				BDA447BB1C294723003FDEAD /* TypeAlias.swift in Sources */,
 				BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */,
 				BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */,
 				BDAF15621C3917110008A5D6 /* Then.swift in Sources */,
 				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
+				BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */,
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
 				BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */,
 				BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */,
