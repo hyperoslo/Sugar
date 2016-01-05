@@ -17,6 +17,12 @@ public extension UITableView {
     performUpdates { deleteRowsAtIndexPaths(indexPaths, withRowAnimation: .None) }
   }
 
+  func reloadSection(section: Int = 0, animation: UITableViewRowAnimation = .None) {
+    performUpdates {
+      reloadSections(NSIndexSet(index: section), withRowAnimation: .Automatic)
+    }
+  }
+
   func performUpdates(@noescape closure: () -> Void) {
     beginUpdates()
     closure()
