@@ -32,4 +32,13 @@ public extension UICollectionView {
         completion?()
     }
   }
+
+  func reloadSection(index: Int = 0, completion: (() -> Void)? = nil) {
+    performBatchUpdates({ [weak self] in
+      guard let weakSelf = self else { return }
+      weakSelf.reloadSections(NSIndexSet(index: index))
+      }) { _ in
+        completion?()
+    }
+  }
 }
