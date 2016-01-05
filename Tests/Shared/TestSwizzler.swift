@@ -14,7 +14,7 @@ class Swizzled: NSObject {
     }
 
     dispatch_once(&Static.token) {
-      Swizzler.swizzleMethod("method", cls: self)
+      Swizzler.swizzle("method", cls: self)
     }
   }
 

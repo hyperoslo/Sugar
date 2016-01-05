@@ -7,7 +7,7 @@ struct Swizzler {
     case Class
   }
 
-  static func swizzleMethod(method: String, cls: AnyClass!, prefix: String = "swizzled", kind: Kind = .Instance) {
+  static func swizzle(method: String, cls: AnyClass!, prefix: String = "swizzled", kind: Kind = .Instance) {
     let originalSelector = Selector(method)
     let swizzledSelector = Selector("\(prefix)_\(method)")
 
