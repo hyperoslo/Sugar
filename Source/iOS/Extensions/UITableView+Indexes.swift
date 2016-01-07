@@ -12,7 +12,7 @@ public extension UITableView {
     performUpdates { reloadRowsAtIndexPaths(indexPaths, withRowAnimation: .None) }
   }
 
-  func remove(indexes: [Int], section: Int = 0, animation: UITableViewRowAnimation = .None) {
+  func delete(indexes: [Int], section: Int = 0, animation: UITableViewRowAnimation = .None) {
     let indexPaths = indexes.map { NSIndexPath(forRow: $0, inSection: section) }
     performUpdates { deleteRowsAtIndexPaths(indexPaths, withRowAnimation: .None) }
   }
