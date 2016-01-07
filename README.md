@@ -10,6 +10,8 @@ Sugar is a sweetner for your Cocoa implementations.
 
 ## Table of Contents
 
+<img src="https://raw.githubusercontent.com/hyperoslo/Sugar/master/Images/icon.png" alt="Hue Icon" align="right" />
+
 * [iOS](#ios)
   * [Application](#application)
   * [iOS Extensions](#ios-extensions)
