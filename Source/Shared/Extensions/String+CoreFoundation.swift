@@ -15,6 +15,7 @@ public extension String {
   }
 
   func split(delimiter: String) -> [String] {
-    return componentsSeparatedByString(delimiter)
+    let components = componentsSeparatedByString(delimiter)
+    return components != [""] ? components : []
   }
 }
