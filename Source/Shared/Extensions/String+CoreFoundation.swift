@@ -9,9 +9,9 @@ public extension String {
   }
 
   func truncate(length: Int, suffix: String = "...") -> String {
-    guard self.characters.count > length else { return self }
-
-    return self.substringToIndex(self.startIndex.advancedBy(length)) + suffix
+    return self.characters.count > length
+      ? self.substringToIndex(self.startIndex.advancedBy(length)) + suffix
+      : self
   }
 
   func split(delimiter: String) -> [String] {
