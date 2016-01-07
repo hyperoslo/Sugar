@@ -15,8 +15,8 @@ Sugar is a sweetner for your Cocoa implementations.
 * [iOS](#ios)
   * [Application](#application)
   * [iOS Extensions](#ios-extensions)
-  * [Screen](#screen)
-  * [Simulator](#simulator)
+    * [Screen](#screen)
+    * [Simulator](#simulator)
 * [Shared](#shared)
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
@@ -77,7 +77,7 @@ not subscribing to push notification or running analytics operations etc.
 let collectionView = UICollectionView()
 collectionView.insert([1,2,3]) // ([Int] -> [NSIndexPaths]).{ insertRowsAtIndexPaths }
 collectionView.reload([1,2,3]) // ([Int] -> [NSIndexPaths]).{ reloadRowsAtIndexPaths }
-collectionView.remove([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
+collectionView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
 collectionView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
 ```
 
@@ -92,7 +92,7 @@ of `NSIndexPath` and `NSIndexSet`.
 let tableView = UITableView()
 tableView.insert([1,2,3]) // ([Int] -> [NSIndexPaths]).{ insertRowsAtIndexPaths }
 tableView.reload([1,2,3]) // ([Int] -> [NSIndexPaths]).{ reloadRowsAtIndexPaths }
-tableView.remove([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
+tableView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
 tableView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
 ```
 
