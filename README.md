@@ -1,6 +1,6 @@
 # Sugar
 
-Sugar is a sweetner for your Cocoa implementations.
+Sugar is a sweetener for your Cocoa implementations.
 
 [![CI Status](http://img.shields.io/travis/hyperoslo/Sugar.svg?style=flat)](https://travis-ci.org/hyperoslo/Sugar)
 [![Version](https://img.shields.io/cocoapods/v/Sugar.svg?style=flat)](http://cocoadocs.org/docsets/Sugar)
@@ -183,7 +183,7 @@ let urlString = "https://hyper.no"
 let url = urlString.url
 ```
 
-Highly inspired by / barrowed from [Alamofire](https://github.com/Alamofire/Alamofire)'s [implementation](https://github.com/Alamofire/Alamofire/blob/990fded98afe5135dc418e1f6eb0287027dd067f/Source/Alamofire.swift#L31) of URLStringConvertible.
+Highly inspired by / borrowed from [Alamofire](https://github.com/Alamofire/Alamofire)'s [implementation](https://github.com/Alamofire/Alamofire/blob/990fded98afe5135dc418e1f6eb0287027dd067f/Source/Alamofire.swift#L31) of URLStringConvertible.
 
 #### Core Foundation
 
