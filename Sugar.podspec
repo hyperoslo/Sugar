@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.ios.source_files = 'Source/{iOS,Shared}/**/*'
-  s.osx.source_files = 'Source/{Mac,Shared}/**/*'
+  s.osx.source_files = 'Source/{Shared}/**/*'
 
-  s.frameworks = 'Foundation', 'QuartzCore'
+  s.frameworks = 'Foundation'
 end
