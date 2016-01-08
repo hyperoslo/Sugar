@@ -28,3 +28,9 @@ DerivedData
 
 # CocoaPods
 Pods
+
+# Carthage
+Carthage
+
+# SPM
+.build/
