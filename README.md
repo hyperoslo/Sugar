@@ -81,7 +81,7 @@ collectionView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexP
 collectionView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
 ```
 
-Enables you to easily run insert, update, delete, reload methods for a table view by using `Int`s instead
+Enables you to easily run insert, update, delete, reload methods for a collection view by using `Int`s instead
 of `NSIndexPath` and `NSIndexSet`.
 
 ### UITableView
@@ -96,7 +96,7 @@ tableView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths 
 tableView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
 ```
 
-Enables you to easily run insert, update, delete, reload methods for a collection view by using `Int`s instead
+Enables you to easily run insert, update, delete, reload methods for a table view by using `Int`s instead
 of `NSIndexPath` and `NSIndexSet`.
 
 #### UIView
