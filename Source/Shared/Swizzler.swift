@@ -1,13 +1,13 @@
 import Foundation
 
-struct Swizzler {
+public struct Swizzler {
 
-  enum Kind {
+  public enum Kind {
     case Instance
     case Class
   }
 
-  static func swizzle(method: String, cls: AnyClass!, prefix: String = "swizzled", kind: Kind = .Instance) {
+  public static func swizzle(method: String, cls: AnyClass!, prefix: String = "swizzled", kind: Kind = .Instance) {
     let originalSelector = Selector(method)
     let swizzledSelector = Selector("\(prefix)_\(method)")
 
