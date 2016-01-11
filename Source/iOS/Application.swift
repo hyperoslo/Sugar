@@ -18,6 +18,10 @@ public struct Application {
     return Application.getString("CFBundleShortVersionString")
   }()
 
+  public static var build: String = {
+    return Application.getString("CFBundleVersion")
+  }()
+
   public static var executable: String = {
     return Application.getString("CFBundleExecutable")
   }()
