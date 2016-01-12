@@ -39,7 +39,6 @@ Sugar is a sweetener for your Cocoa implementations.
 ```swift
 let appName = Application.name             // CFBundleDisplayName : String
 let appVersion = Application.version       // CFBundleShortVersionString : String
-let appName = Application.name             // CFBundleDisplayName : String
 let appExecutable = Application.executable // CFBundleExecutable : String
 let appBundle = Application.bundle         // CFBundleIdentifier : String
 let appSchemes = Application.schemes       // CFBundleURLSchemes : [String]
