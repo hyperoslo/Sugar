@@ -17,6 +17,8 @@
 		BD37B4EF1C2C07220069CD4A /* TestUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */; };
 		BD37B4F01C2C07220069CD4A /* TestUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */; };
 		BD37B4F11C2C08430069CD4A /* String+CoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */; };
+		BD81A14B1C73A596009955E3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81A14A1C73A596009955E3 /* Result.swift */; };
+		BD81A14C1C73A596009955E3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81A14A1C73A596009955E3 /* Result.swift */; };
 		BDA447931C2946BC003FDEAD /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA447891C2946BB003FDEAD /* Sugar.framework */; };
 		BDA447B21C29471C003FDEAD /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A21C29470D003FDEAD /* Application.swift */; };
 		BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */; };
@@ -77,6 +79,7 @@
 		BD0E01D01C3BD93C0092C477 /* UICollectionView+Indexes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Indexes.swift"; sourceTree = "<group>"; };
 		BD18D5A11C391926002E6547 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
 		BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUnitTesting.swift; sourceTree = "<group>"; };
+		BD81A14A1C73A596009955E3 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		BDA447891C2946BB003FDEAD /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA447921C2946BC003FDEAD /* Tests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA447A21C29470D003FDEAD /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
@@ -190,6 +193,7 @@
 				BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */,
 				BD0E01CA1C3BCFEF0092C477 /* Localization.swift */,
 				D52D72421C3BDEA5009A4426 /* Swizzler.swift */,
+				BD81A14A1C73A596009955E3 /* Result.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -469,6 +473,7 @@
 				BDAF15631C3917110008A5D6 /* Then.swift in Sources */,
 				BD0E01C91C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */,
 				BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */,
+				BD81A14C1C73A596009955E3 /* Result.swift in Sources */,
 				BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				BDA447C21C294729003FDEAD /* Operator.swift in Sources */,
 				BDA447C31C294729003FDEAD /* TypeAlias.swift in Sources */,
@@ -495,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD81A14B1C73A596009955E3 /* Result.swift in Sources */,
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				BD0E01CE1C3BD7AC0092C477 /* UITableView+Indexes.swift in Sources */,
