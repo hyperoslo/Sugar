@@ -14,9 +14,13 @@ Sugar is a sweetener for your Cocoa implementations.
 
 * [iOS](#ios)
   * [Application](#application)
+  * [Screen](#screen)
+  * [Simulator](#simulator)
   * [iOS Extensions](#ios-extensions)
-    * [Screen](#screen)
-    * [Simulator](#simulator)
+    * [UICollectionView](#uicollectionView)
+    * [UITableView](#uitableView)
+    * [UIView](#uiview)
+    * [UIImage](#uiimage)
 * [Shared](#shared)
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
@@ -30,7 +34,6 @@ Sugar is a sweetener for your Cocoa implementations.
   * [Type Alias](#type-alias)
   * [UITesting](#uitesting)
   * [UnitTesting](#unittesting)
-
 
 ## iOS
 
@@ -108,6 +111,15 @@ let view = UIView.optimize
   layer.drawsAsynchronously = true
   opaque = true
 */
+```
+
+#### UIImage
+
+##### +Rendering mode
+
+```swift
+image.original // imageWithRenderingMode(.AlwaysOriginal)
+image.template // imageWithRenderingMode(.AlwaysTemplate)
 ```
 
 ## Shared

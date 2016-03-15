@@ -1,12 +1,12 @@
 import UIKit
 
-extension UIImage {
+public extension UIImage {
 
-  var original: UIImage {
+  public var original: UIImage {
     return imageWithRenderingMode(.AlwaysOriginal)
   }
 
-  var template: UIImage {
-    return  imageWithRenderingMode(.AlwaysTemplate)
+  public var template: UIImage {
+    return imageWithRenderingMode(.AlwaysTemplate)
   }
 }
