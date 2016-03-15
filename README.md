@@ -113,7 +113,7 @@ let view = UIView.optimize
 */
 ```
 
-#### UIImageView
+#### UIImage
 
 ##### +Rendering mode
 
