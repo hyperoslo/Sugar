@@ -52,6 +52,7 @@
 		D52D72441C3BDEA5009A4426 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72421C3BDEA5009A4426 /* Swizzler.swift */; };
 		D52D72461C3BDFAB009A4426 /* TestSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */; };
 		D52D72471C3BDFAB009A4426 /* TestSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */; };
+		D5619C1A1C97FEB8006C8176 /* UIImage+RenderingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5619C191C97FEB8006C8176 /* UIImage+RenderingMode.swift */; };
 		D56DAA831C206516003E7253 /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56DAA781C206516003E7253 /* Sugar.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,7 @@
 		BDAF15641C3917A90008A5D6 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
 		D52D72421C3BDEA5009A4426 /* Swizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
 		D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSwizzler.swift; sourceTree = "<group>"; };
+		D5619C191C97FEB8006C8176 /* UIImage+RenderingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RenderingMode.swift"; sourceTree = "<group>"; };
 		D56DAA781C206516003E7253 /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56DAA821C206516003E7253 /* Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 				BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */,
 				BD0E01CD1C3BD7AC0092C477 /* UITableView+Indexes.swift */,
 				BD0E01D01C3BD93C0092C477 /* UICollectionView+Indexes.swift */,
+				D5619C191C97FEB8006C8176 /* UIImage+RenderingMode.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
 				BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */,
 				BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */,
+				D5619C1A1C97FEB8006C8176 /* UIImage+RenderingMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
