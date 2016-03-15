@@ -7,6 +7,6 @@ extension UIImage {
   }
 
   var template: UIImage {
-    return  imageWithRenderingMode(.AlwaysTemplate)
+    return imageWithRenderingMode(.AlwaysTemplate)
   }
 }
