@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */; };
 		BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
 		BD0E01C91C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
 		BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01CA1C3BCFEF0092C477 /* Localization.swift */; };
@@ -75,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Compare.swift"; sourceTree = "<group>"; };
 		BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandCentralDispatch.swift; sourceTree = "<group>"; };
 		BD0E01CA1C3BCFEF0092C477 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		BD0E01CD1C3BD7AC0092C477 /* UITableView+Indexes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Indexes.swift"; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */,
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
 				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
+				39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -506,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */,
 				BD81A14B1C73A596009955E3 /* Result.swift in Sources */,
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
