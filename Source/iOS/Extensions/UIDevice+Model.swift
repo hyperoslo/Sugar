@@ -2,7 +2,7 @@ import UIKit
 
 public extension UIDevice {
 
-  public enum Model {
+  public enum DeviceKind {
     case iPhone4
     case iPhone5
     case iPhone6
@@ -11,12 +11,12 @@ public extension UIDevice {
     case Unknown
   }
 
-  public var model: Model {
+  public var kind: DeviceKind {
     guard userInterfaceIdiom == .Phone else {
       return .iPad
     }
 
-    let result: Model
+    let result: DeviceKind
 
     switch UIScreen.mainScreen().nativeBounds.height {
     case 960:
