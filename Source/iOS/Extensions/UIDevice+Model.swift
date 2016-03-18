@@ -2,7 +2,7 @@ import UIKit
 
 public extension UIDevice {
 
-  public enum Model: String {
+  public enum Model {
     case iPhone4
     case iPhone5
     case iPhone6
@@ -12,7 +12,7 @@ public extension UIDevice {
   }
 
   public var model: Model {
-    guard UIDevice().userInterfaceIdiom == .Phone else {
+    guard userInterfaceIdiom == .Phone else {
       return .iPad
     }
 

@@ -48,7 +48,7 @@
 		BDAF15621C3917110008A5D6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15611C3917110008A5D6 /* Then.swift */; };
 		BDAF15631C3917110008A5D6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15611C3917110008A5D6 /* Then.swift */; };
 		BDAF15651C3917A90008A5D6 /* TestThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15641C3917A90008A5D6 /* TestThen.swift */; };
-		D527EDA01C9C0B7D0092AD6B /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527ED9F1C9C0B7D0092AD6B /* UIDevice.swift */; };
+		D527EDA01C9C0B7D0092AD6B /* UIDevice+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */; };
 		D52D72431C3BDEA5009A4426 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72421C3BDEA5009A4426 /* Swizzler.swift */; };
 		D52D72441C3BDEA5009A4426 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72421C3BDEA5009A4426 /* Swizzler.swift */; };
 		D52D72461C3BDFAB009A4426 /* TestSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */; };
@@ -105,7 +105,7 @@
 		BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStringExtensionCoreFoundation.swift; sourceTree = "<group>"; };
 		BDAF15611C3917110008A5D6 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		BDAF15641C3917A90008A5D6 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
-		D527ED9F1C9C0B7D0092AD6B /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Model.swift"; sourceTree = "<group>"; };
 		D52D72421C3BDEA5009A4426 /* Swizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
 		D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSwizzler.swift; sourceTree = "<group>"; };
 		D5619C191C97FEB8006C8176 /* UIImage+RenderingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RenderingMode.swift"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 				BD0E01CD1C3BD7AC0092C477 /* UITableView+Indexes.swift */,
 				BD0E01D01C3BD93C0092C477 /* UICollectionView+Indexes.swift */,
 				D5619C191C97FEB8006C8176 /* UIImage+RenderingMode.swift */,
-				D527ED9F1C9C0B7D0092AD6B /* UIDevice.swift */,
+				D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -521,7 +521,7 @@
 				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
 				BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */,
-				D527EDA01C9C0B7D0092AD6B /* UIDevice.swift in Sources */,
+				D527EDA01C9C0B7D0092AD6B /* UIDevice+Model.swift in Sources */,
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
 				BDA447B51C29471C003FDEAD /* Simulator.swift in Sources */,
 				BDA4481A1C29588F003FDEAD /* String+CoreFoundation.swift in Sources */,
