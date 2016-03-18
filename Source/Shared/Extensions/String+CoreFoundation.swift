@@ -9,8 +9,8 @@ public extension String {
   }
 
   func truncate(length: Int, suffix: String = "...") -> String {
-    return self.characters.count > length
-      ? self.substringToIndex(self.startIndex.advancedBy(length)) + suffix
+    return characters.count > length
+      ? substringToIndex(startIndex.advancedBy(length)) + suffix
       : self
   }
 
