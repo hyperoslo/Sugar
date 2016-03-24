@@ -18,12 +18,12 @@ public extension String {
     let components = componentsSeparatedByString(delimiter)
     return components != [""] ? components : []
   }
-    
-  public func contains(find: String) -> Bool {
+
+  func contains(find: String) -> Bool {
     return rangeOfString(find) != nil
   }
-    
-  public func trim() -> String {
+
+  func trim() -> String {
     return stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
   }
 }
