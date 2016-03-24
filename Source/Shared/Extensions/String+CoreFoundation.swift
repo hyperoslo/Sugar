@@ -9,13 +9,21 @@ public extension String {
   }
 
   func truncate(length: Int, suffix: String = "...") -> String {
-    return self.characters.count > length
-      ? self.substringToIndex(self.startIndex.advancedBy(length)) + suffix
+    return self.length > length
+      ? substringToIndex(startIndex.advancedBy(length)) + suffix
       : self
   }
 
   func split(delimiter: String) -> [String] {
     let components = componentsSeparatedByString(delimiter)
     return components != [""] ? components : []
+  }
+    
+  public func contains(find: String) -> Bool {
+    return rangeOfString(find) != nil
+  }
+    
+  public func trim() -> String {
+    return stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
   }
 }
