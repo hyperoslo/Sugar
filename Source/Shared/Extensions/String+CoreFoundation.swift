@@ -3,6 +3,7 @@ import Foundation
 public extension String {
 
   var length: Int { return characters.count }
+  var isPresent: Bool { return !isEmpty }
 
   func replace(string: String, with withString: String) -> String {
     return stringByReplacingOccurrencesOfString(string, withString: withString)
