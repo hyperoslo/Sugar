@@ -22,6 +22,7 @@ Sugar is a sweetener for your Cocoa implementations.
     * [UIView](#uiview)
     * [UIImage](#uiimage)
 * [Shared](#shared)
+  * [Dates](#dates)
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
   * [Operators](#operators)
@@ -124,6 +125,16 @@ image.template // imageWithRenderingMode(.AlwaysTemplate)
 
 ## Shared
 
+### Dates
+
+```swift
+if date1 < date2 {
+  // do something
+} else if date1 >= date2 {
+  // do something else
+}
+```
+
 ### Grand Central Dispatch
 
 ```swift
@@ -203,9 +214,24 @@ let string = "hyper/oslo"
 string.length // 10
 string.truncate(5) // hyper...
 string.split(/) // ["hyper", oslo]
+
+if string.isPresent {
+  // do something
+}
+
+if string.contains("hyper") {
+  // found hyper
+}
+
+var dirtyString = "   hyper   "
+print(dirtyString.trim()) // prints "hyper"
 ```
 
-Just some extra sugar on top of `String` for getting the length, truncating or splitting a `String`.
+Just some extra sugar on top of `String` for getting the length, truncating, trimming or splitting a `String`.
+
+`isPresent` is the opposite of `isEmpty`.
+
+`contains` and be used to check if a string contains a word or pharse.
 
 ### Swizzler
 

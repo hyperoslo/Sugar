@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */; };
 		39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */; };
 		39D4BC281C9C2DDE005D6EC0 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */; };
 		BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
@@ -77,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Compare.swift"; sourceTree = "<group>"; };
 		39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
 		BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandCentralDispatch.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */,
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
 				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
+				39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */,
 				39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */,
 				39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */,
 			);
@@ -512,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */,
 				BD81A14B1C73A596009955E3 /* Result.swift in Sources */,
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
