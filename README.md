@@ -214,9 +214,24 @@ let string = "hyper/oslo"
 string.length // 10
 string.truncate(5) // hyper...
 string.split(/) // ["hyper", oslo]
+
+if string.isPresent {
+  // do something
+}
+
+if string.contains("hyper") {
+  // found hyper
+}
+
+var dirtyString = "   hyper   "
+print(dirtyString.trim()) // prints "hyper"
 ```
 
-Just some extra sugar on top of `String` for getting the length, truncating or splitting a `String`.
+Just some extra sugar on top of `String` for getting the length, truncating, trimming or splitting a `String`.
+
+`isPresent` is the opposite of `isEmpty`.
+
+`contains` and be used to check if a string contains a word or pharse.
 
 ### Swizzler
 
