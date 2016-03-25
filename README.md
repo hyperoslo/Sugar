@@ -22,6 +22,7 @@ Sugar is a sweetener for your Cocoa implementations.
     * [UIView](#uiview)
     * [UIImage](#uiimage)
 * [Shared](#shared)
+  * [Dates](#dates)
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
   * [Operators](#operators)
@@ -123,6 +124,16 @@ image.template // imageWithRenderingMode(.AlwaysTemplate)
 ```
 
 ## Shared
+
+### Dates
+
+```swift
+if date1 < date2 {
+  // do something
+} else if date1 >= date2 {
+  // do something else
+}
+```
 
 ### Grand Central Dispatch
 
