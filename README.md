@@ -27,6 +27,7 @@ Sugar is a sweetener for your Cocoa implementations.
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
   * [Operators](#operators)
+  * [Regex](#regex)
   * [Shared Extensions](#shared-extensions)
     * [Queueable](#queueable)
     * [URLStringConvertible](#urlstringconvertible)
@@ -190,6 +191,23 @@ url ?= NSURL(string: "\\/http")
 ```
 
 The `?=` only assigns values if the right is not nil.
+
+### Regex
+
+```swift
+if "ios@hyper.no".isEmail() {
+  // Is email
+}
+
+let stringNumber = "1984"
+if stringNumber.isNumber() {
+  // Is a number
+}
+
+if stringNumber.matches("^[0-9]*?$") {
+  // Is a number
+}
+```
 
 ### Shared Extensions
 
