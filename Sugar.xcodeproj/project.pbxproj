@@ -179,12 +179,12 @@
 		BDA447A31C29470D003FDEAD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */,
-				BD0E01CD1C3BD7AC0092C477 /* UITableView+Indexes.swift */,
 				BD0E01D01C3BD93C0092C477 /* UICollectionView+Indexes.swift */,
-				D5619C191C97FEB8006C8176 /* UIImage+RenderingMode.swift */,
 				D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */,
+				D5619C191C97FEB8006C8176 /* UIImage+RenderingMode.swift */,
+				BD0E01CD1C3BD7AC0092C477 /* UITableView+Indexes.swift */,
 				39FAD61E1CA59371009BD40C /* UIView+Frame.swift */,
+				BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -217,10 +217,10 @@
 			isa = PBXGroup;
 			children = (
 				BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */,
-				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
-				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
 				39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */,
+				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
 				39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */,
+				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
 				39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */,
 			);
 			path = Extensions;
