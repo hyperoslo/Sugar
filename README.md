@@ -23,6 +23,7 @@ Sugar is a sweetener for your Cocoa implementations.
     * [UIImage](#uiimage)
 * [Shared](#shared)
   * [Dates](#dates)
+  * [Frame](#frame)
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
   * [Operators](#operators)
@@ -133,6 +134,21 @@ if date1 < date2 {
 } else if date1 >= date2 {
   // do something else
 }
+```
+
+### Frame
+
+```swift
+let view = UIView()
+view.width = 200
+view.height = 200
+view.x = 25
+view.y = 25
+
+print(view.width) // prints 200
+print(view.height) // prints 200
+print(view.x) // prints 25
+print(view.y) // prints 25
 ```
 
 ### Grand Central Dispatch
