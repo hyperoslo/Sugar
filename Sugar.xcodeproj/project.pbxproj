@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */; };
+		39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */; };
+		39D4BC281C9C2DDE005D6EC0 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */; };
 		BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
 		BD0E01C91C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
 		BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01CA1C3BCFEF0092C477 /* Localization.swift */; };
@@ -77,6 +79,8 @@
 
 /* Begin PBXFileReference section */
 		39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Compare.swift"; sourceTree = "<group>"; };
+		39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
 		BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandCentralDispatch.swift; sourceTree = "<group>"; };
 		BD0E01CA1C3BCFEF0092C477 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		BD0E01CD1C3BD7AC0092C477 /* UITableView+Indexes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Indexes.swift"; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
 				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
 				39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */,
+				39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */,
+				39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -513,6 +519,7 @@
 				BD81A14B1C73A596009955E3 /* Result.swift in Sources */,
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
+				39D4BC281C9C2DDE005D6EC0 /* String+Validation.swift in Sources */,
 				BD0E01CE1C3BD7AC0092C477 /* UITableView+Indexes.swift in Sources */,
 				BDA447BA1C294723003FDEAD /* Operator.swift in Sources */,
 				BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */,
@@ -524,6 +531,7 @@
 				BD0E01D11C3BD93C0092C477 /* UICollectionView+Indexes.swift in Sources */,
 				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
+				39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */,
 				BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */,
 				D527EDA01C9C0B7D0092AD6B /* UIDevice+Model.swift in Sources */,
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
