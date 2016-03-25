@@ -23,9 +23,11 @@ Sugar is a sweetener for your Cocoa implementations.
     * [UIImage](#uiimage)
 * [Shared](#shared)
   * [Dates](#dates)
+  * [Frame](#frame)
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
   * [Operators](#operators)
+  * [Regex](#regex)
   * [Shared Extensions](#shared-extensions)
     * [Queueable](#queueable)
     * [URLStringConvertible](#urlstringconvertible)
@@ -135,6 +137,21 @@ if date1 < date2 {
 }
 ```
 
+### Frame
+
+```swift
+let view = UIView()
+view.width = 200
+view.height = 200
+view.x = 25
+view.y = 25
+
+print(view.width) // prints 200
+print(view.height) // prints 200
+print(view.x) // prints 25
+print(view.y) // prints 25
+```
+
 ### Grand Central Dispatch
 
 ```swift
@@ -174,6 +191,23 @@ url ?= NSURL(string: "\\/http")
 ```
 
 The `?=` only assigns values if the right is not nil.
+
+### Regex
+
+```swift
+if "ios@hyper.no".isEmail() {
+  // Is email
+}
+
+let stringNumber = "1984"
+if stringNumber.isNumber() {
+  // Is a number
+}
+
+if stringNumber.matches("^[0-9]*?$") {
+  // Is a number
+}
+```
 
 ### Shared Extensions
 
