@@ -21,4 +21,8 @@ public extension String {
     public func isZipCode() -> Bool {
         return matchesPattern(Regex.ZipCode.pattern)
     }
+    
+    public func isNumber() -> Bool {
+        return matchesPattern(Regex.Numbers.pattern)
+    }
 }
