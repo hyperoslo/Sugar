@@ -34,11 +34,11 @@ public extension UIDevice {
     return result
   }
     
-    public static func isIPhone() -> Bool {
+    public static func isPhone() -> Bool {
         return UIDevice().userInterfaceIdiom == .Phone
     }
 
-    public static func isIPad() -> Bool {
+    public static func isPad() -> Bool {
         return UIDevice().userInterfaceIdiom == .Pad
     }
 
