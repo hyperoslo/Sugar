@@ -33,4 +33,16 @@ public extension UIDevice {
 
     return result
   }
+    
+    public static func isPhone() -> Bool {
+        return UIDevice().userInterfaceIdiom == .Phone
+    }
+
+    public static func isPad() -> Bool {
+        return UIDevice().userInterfaceIdiom == .Pad
+    }
+
+    public static func isSimulator() -> Bool {
+        return Simulator.isRunning
+    }
 }
