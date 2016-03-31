@@ -53,6 +53,8 @@
 		BDAF15621C3917110008A5D6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15611C3917110008A5D6 /* Then.swift */; };
 		BDAF15631C3917110008A5D6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15611C3917110008A5D6 /* Then.swift */; };
 		BDAF15651C3917A90008A5D6 /* TestThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF15641C3917A90008A5D6 /* TestThen.swift */; };
+		BDF36EA11CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */; };
+		BDF36EA21CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */; };
 		D527EDA01C9C0B7D0092AD6B /* UIDevice+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */; };
 		D52D72431C3BDEA5009A4426 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72421C3BDEA5009A4426 /* Swizzler.swift */; };
 		D52D72441C3BDEA5009A4426 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72421C3BDEA5009A4426 /* Swizzler.swift */; };
@@ -115,6 +117,7 @@
 		BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStringExtensionCoreFoundation.swift; sourceTree = "<group>"; };
 		BDAF15611C3917110008A5D6 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		BDAF15641C3917A90008A5D6 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
+		BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
 		D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Model.swift"; sourceTree = "<group>"; };
 		D52D72421C3BDEA5009A4426 /* Swizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
 		D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSwizzler.swift; sourceTree = "<group>"; };
@@ -187,6 +190,7 @@
 				BD0E01CD1C3BD7AC0092C477 /* UITableView+Indexes.swift */,
 				39FAD61E1CA59371009BD40C /* UIView+Frame.swift */,
 				BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */,
+				BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -539,6 +543,7 @@
 				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
 				39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */,
+				BDF36EA11CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */,
 				BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */,
 				D527EDA01C9C0B7D0092AD6B /* UIDevice+Model.swift in Sources */,
 				BDA447B41C29471C003FDEAD /* Screen.swift in Sources */,
@@ -553,6 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF36EA21CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */,
 				BDA447CE1C294787003FDEAD /* TestTruncate.swift in Sources */,
 				BDAF15651C3917A90008A5D6 /* TestThen.swift in Sources */,
 				D52D72461C3BDFAB009A4426 /* TestSwizzler.swift in Sources */,
