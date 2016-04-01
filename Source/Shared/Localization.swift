@@ -7,3 +7,9 @@ public func localizedString(key: String, _ bundleClass: AnyClass? = nil, comment
     return NSLocalizedString(key, bundle: NSBundle.mainBundle(), comment: (comment != nil) ? comment! : key)
   }
 }
+
+public func localizedString(key: String, _ bundleClass: AnyClass? = nil, comment: String? = nil, arguments: CVarArgType...) -> String {
+  return withVaList(arguments) {
+    NSString(format: localizedString(key, bundleClass, comment: comment), locale: NSLocale.currentLocale(), arguments: $0)
+    } as String
+}
