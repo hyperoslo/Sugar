@@ -149,6 +149,7 @@ And `.Custom()` for your own dispatch queues.
 
 ```swift
 let string = localizedString("My Profile")
+let formattedString = localizedString(key: "%d numbers", arguments: 10) 
 ```
 
 Swift access (pun intended) to `NSLocalizedString`, you will get more valid auto completion
