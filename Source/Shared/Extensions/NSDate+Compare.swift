@@ -22,6 +22,7 @@ public func > (lhs: NSDate, rhs: NSDate) -> Bool {
 // MARK: - Components
 
 public extension NSDate {
+  
   public func components(unit: NSCalendarUnit, retrieval: NSDateComponents -> Int) -> Int {
     let calendar = NSCalendar.currentCalendar()
     let components = calendar.components(unit, fromDate: self)
