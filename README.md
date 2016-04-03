@@ -27,6 +27,7 @@ Sugar is a sweetener for your Cocoa implementations.
   * [Grand Central Dispatch](#grand-central-dispatch)
   * [Localization](#localization)
   * [Operators](#operators)
+  * [Range](#range)
   * [Regex](#regex)
   * [Shared Extensions](#shared-extensions)
     * [Queueable](#queueable)
@@ -177,7 +178,7 @@ And `.Custom()` for your own dispatch queues.
 
 ```swift
 let string = localizedString("My Profile")
-let formattedString = localizedString(key: "%d numbers", arguments: 10) 
+let formattedString = localizedString(key: "%d numbers", arguments: 10)
 ```
 
 Swift access (pun intended) to `NSLocalizedString`, you will get more valid auto completion
@@ -192,6 +193,15 @@ url ?= NSURL(string: "\\/http")
 ```
 
 The `?=` only assigns values if the right is not nil.
+
+### Range
+
+```swift
+let acceptable = 200..<300
+if acceptable.contains(response.statusCode) {
+  // Status code is between 200 and 299.
+}
+```
 
 ### Regex
 
