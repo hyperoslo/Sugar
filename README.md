@@ -7,6 +7,7 @@ Sugar is a sweetener for your Cocoa implementations.
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Sugar.svg?style=flat)](http://cocoadocs.org/docsets/Sugar)
 [![Platform](https://img.shields.io/cocoapods/p/Sugar.svg?style=flat)](http://cocoadocs.org/docsets/Sugar)
+![Swift](https://img.shields.io/badge/%20in-swift%202.2-orange.svg)
 
 ## Table of Contents
 
