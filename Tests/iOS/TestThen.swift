@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-@testable import Sugar
+import Sugar
 
 class ThenTests: XCTestCase {
 

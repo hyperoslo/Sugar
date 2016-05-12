@@ -1,6 +1,6 @@
 import Foundation
 import XCTest
-@testable import Sugar
+import Sugar
 
 struct Object: Queueable {
 
