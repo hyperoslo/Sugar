@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */; };
+		39D4BC221C9C2A6E005D6EC0 /* NSDate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Extensions.swift */; };
 		39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */; };
 		39D4BC281C9C2DDE005D6EC0 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */; };
 		39DBAEB71CA5BE550060291F /* String+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DBAEB61CA5BE550060291F /* String+Empty.swift */; };
 		39FAD61F1CA59371009BD40C /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FAD61E1CA59371009BD40C /* UIView+Frame.swift */; };
-		BD0D88FB1CB18BF100CDA2C6 /* NSDate+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */; };
+		BD0D88FB1CB18BF100CDA2C6 /* NSDate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Extensions.swift */; };
 		BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
 		BD0E01C91C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01C71C3BCFD50092C477 /* GrandCentralDispatch.swift */; };
 		BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E01CA1C3BCFEF0092C477 /* Localization.swift */; };
@@ -62,6 +62,10 @@
 		D20FF6321CD2029B000F3BFE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FF6301CD2029B000F3BFE /* String+Extension.swift */; };
 		D21D1B941CAE680F00BD068E /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
 		D21D1B951CAE680F00BD068E /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
+		D2FD145F1CE5F27A00EC080B /* Double+DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */; };
+		D2FD14601CE5F27A00EC080B /* Double+DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */; };
+		D2FD14621CE5F30500EC080B /* TestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD14611CE5F30500EC080B /* TestDouble.swift */; };
+		D2FD14631CE5F30500EC080B /* TestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD14611CE5F30500EC080B /* TestDouble.swift */; };
 		D527EDA01C9C0B7D0092AD6B /* UIDevice+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */; };
 		D52D72431C3BDEA5009A4426 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72421C3BDEA5009A4426 /* Swizzler.swift */; };
 		D52D72441C3BDEA5009A4426 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72421C3BDEA5009A4426 /* Swizzler.swift */; };
@@ -89,7 +93,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Compare.swift"; sourceTree = "<group>"; };
+		39D4BC211C9C2A6E005D6EC0 /* NSDate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extensions.swift"; sourceTree = "<group>"; };
 		39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
 		39DBAEB61CA5BE550060291F /* String+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Empty.swift"; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		D20FF62E1CD1FE6F000F3BFE /* TestUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUIImage.swift; sourceTree = "<group>"; };
 		D20FF6301CD2029B000F3BFE /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		D21D1B931CAE680F00BD068E /* TestDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDate.swift; sourceTree = "<group>"; };
+		D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+DateTime.swift"; sourceTree = "<group>"; };
+		D2FD14611CE5F30500EC080B /* TestDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDouble.swift; sourceTree = "<group>"; };
 		D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Model.swift"; sourceTree = "<group>"; };
 		D52D72421C3BDEA5009A4426 /* Swizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
 		D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSwizzler.swift; sourceTree = "<group>"; };
@@ -235,13 +241,14 @@
 			isa = PBXGroup;
 			children = (
 				BDA447AA1C29470D003FDEAD /* Array+Queueable.swift */,
-				39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */,
+				39D4BC211C9C2A6E005D6EC0 /* NSDate+Extensions.swift */,
 				BDA448191C29588F003FDEAD /* String+CoreFoundation.swift */,
 				39DBAEB61CA5BE550060291F /* String+Empty.swift */,
 				39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */,
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
 				39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */,
 				D20FF6301CD2029B000F3BFE /* String+Extension.swift */,
+				D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -256,6 +263,7 @@
 				BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */,
 				D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */,
 				D21D1B931CAE680F00BD068E /* TestDate.swift */,
+				D2FD14611CE5F30500EC080B /* TestDouble.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -510,12 +518,13 @@
 				D52D72441C3BDEA5009A4426 /* Swizzler.swift in Sources */,
 				BD37B4F11C2C08430069CD4A /* String+CoreFoundation.swift in Sources */,
 				BD0E01CC1C3BCFEF0092C477 /* Localization.swift in Sources */,
-				BD0D88FB1CB18BF100CDA2C6 /* NSDate+Compare.swift in Sources */,
+				BD0D88FB1CB18BF100CDA2C6 /* NSDate+Extensions.swift in Sources */,
 				BDAF15631C3917110008A5D6 /* Then.swift in Sources */,
 				BD0E01C91C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */,
 				BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */,
 				BD81A14C1C73A596009955E3 /* Result.swift in Sources */,
 				D20FF6321CD2029B000F3BFE /* String+Extension.swift in Sources */,
+				D2FD14601CE5F27A00EC080B /* Double+DateTime.swift in Sources */,
 				BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				BDA447C21C294729003FDEAD /* Operator.swift in Sources */,
 				BDA447C31C294729003FDEAD /* TypeAlias.swift in Sources */,
@@ -528,6 +537,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FD14631CE5F30500EC080B /* TestDouble.swift in Sources */,
 				BDA447CD1C294787003FDEAD /* TestQueueable.swift in Sources */,
 				BDA447CB1C294787003FDEAD /* TestOperators.swift in Sources */,
 				D52D72471C3BDFAB009A4426 /* TestSwizzler.swift in Sources */,
@@ -543,7 +553,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */,
+				39D4BC221C9C2A6E005D6EC0 /* NSDate+Extensions.swift in Sources */,
 				BD81A14B1C73A596009955E3 /* Result.swift in Sources */,
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
@@ -561,6 +571,7 @@
 				BD0E01D11C3BD93C0092C477 /* UICollectionView+Indexes.swift in Sources */,
 				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
+				D2FD145F1CE5F27A00EC080B /* Double+DateTime.swift in Sources */,
 				39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */,
 				BDF36EA11CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */,
 				BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */,
@@ -585,6 +596,7 @@
 				BDAF15651C3917A90008A5D6 /* TestThen.swift in Sources */,
 				D52D72461C3BDFAB009A4426 /* TestSwizzler.swift in Sources */,
 				BDA447CA1C294787003FDEAD /* TestOperators.swift in Sources */,
+				D2FD14621CE5F30500EC080B /* TestDouble.swift in Sources */,
 				BDA4481C1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CC1C294787003FDEAD /* TestQueueable.swift in Sources */,
 				BD37B4EF1C2C07220069CD4A /* TestUnitTesting.swift in Sources */,
