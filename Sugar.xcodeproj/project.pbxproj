@@ -62,8 +62,8 @@
 		D20FF6321CD2029B000F3BFE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FF6301CD2029B000F3BFE /* String+Extension.swift */; };
 		D21D1B941CAE680F00BD068E /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
 		D21D1B951CAE680F00BD068E /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
-		D2FD145F1CE5F27A00EC080B /* Double+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD145E1CE5F27A00EC080B /* Double+Time.swift */; };
-		D2FD14601CE5F27A00EC080B /* Double+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD145E1CE5F27A00EC080B /* Double+Time.swift */; };
+		D2FD145F1CE5F27A00EC080B /* Double+DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */; };
+		D2FD14601CE5F27A00EC080B /* Double+DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */; };
 		D2FD14621CE5F30500EC080B /* TestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD14611CE5F30500EC080B /* TestDouble.swift */; };
 		D2FD14631CE5F30500EC080B /* TestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD14611CE5F30500EC080B /* TestDouble.swift */; };
 		D527EDA01C9C0B7D0092AD6B /* UIDevice+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */; };
@@ -133,7 +133,7 @@
 		D20FF62E1CD1FE6F000F3BFE /* TestUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUIImage.swift; sourceTree = "<group>"; };
 		D20FF6301CD2029B000F3BFE /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		D21D1B931CAE680F00BD068E /* TestDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDate.swift; sourceTree = "<group>"; };
-		D2FD145E1CE5F27A00EC080B /* Double+Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Time.swift"; sourceTree = "<group>"; };
+		D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+DateTime.swift"; sourceTree = "<group>"; };
 		D2FD14611CE5F30500EC080B /* TestDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDouble.swift; sourceTree = "<group>"; };
 		D527ED9F1C9C0B7D0092AD6B /* UIDevice+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Model.swift"; sourceTree = "<group>"; };
 		D52D72421C3BDEA5009A4426 /* Swizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
 				39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */,
 				D20FF6301CD2029B000F3BFE /* String+Extension.swift */,
-				D2FD145E1CE5F27A00EC080B /* Double+Time.swift */,
+				D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -524,7 +524,7 @@
 				BDA447BE1C294729003FDEAD /* Array+Queueable.swift in Sources */,
 				BD81A14C1C73A596009955E3 /* Result.swift in Sources */,
 				D20FF6321CD2029B000F3BFE /* String+Extension.swift in Sources */,
-				D2FD14601CE5F27A00EC080B /* Double+Time.swift in Sources */,
+				D2FD14601CE5F27A00EC080B /* Double+DateTime.swift in Sources */,
 				BDA447C01C294729003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				BDA447C21C294729003FDEAD /* Operator.swift in Sources */,
 				BDA447C31C294729003FDEAD /* TypeAlias.swift in Sources */,
@@ -571,7 +571,7 @@
 				BD0E01D11C3BD93C0092C477 /* UICollectionView+Indexes.swift in Sources */,
 				BDA447B21C29471C003FDEAD /* Application.swift in Sources */,
 				BDA447B31C29471C003FDEAD /* UIView+Optimize.swift in Sources */,
-				D2FD145F1CE5F27A00EC080B /* Double+Time.swift in Sources */,
+				D2FD145F1CE5F27A00EC080B /* Double+DateTime.swift in Sources */,
 				39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */,
 				BDF36EA11CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */,
 				BD0E01CB1C3BCFEF0092C477 /* Localization.swift in Sources */,
