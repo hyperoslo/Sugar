@@ -2,6 +2,8 @@ import UIKit
 
 public class CustomKeyboardHandler: KeyboardHandler {
 
+  public init() {}
+  
   public func willShow(info: KeyboardInfo) {
     show?(info: info)
   }

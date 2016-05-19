@@ -5,6 +5,8 @@ public class InsetKeyboardHandler: KeyboardHandler {
   public weak var scrollView: UIScrollView?
   public var originalInsets: UIEdgeInsets = UIEdgeInsetsZero
 
+  public init() {}
+
   public func willShow(info: KeyboardInfo) {
     originalInsets = scrollView?.contentInset ?? UIEdgeInsetsZero
     var insets = originalInsets
