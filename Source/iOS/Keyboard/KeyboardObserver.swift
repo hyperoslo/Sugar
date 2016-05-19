@@ -9,6 +9,10 @@ public class KeyboardObserver: NSObject {
     super.init()
   }
 
+  deinit {
+    deactivate()
+  }
+
   // MARK: - Notification
 
   public func activate() {
