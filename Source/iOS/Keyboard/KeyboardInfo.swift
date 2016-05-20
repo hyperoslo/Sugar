@@ -1,7 +1,7 @@
 import UIKit
 
 public struct KeyboardInfo {
-  public let height: CGFloat
+  public let frame: CGRect
   public let duration: NSTimeInterval
   public let curve: UIViewAnimationCurve
 
@@ -12,7 +12,7 @@ public struct KeyboardInfo {
       curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int
       else { return nil }
 
-    self.height = value.CGRectValue().height
+    self.frame = value.CGRectValue()
     self.duration = duration
     self.curve = UIViewAnimationCurve(rawValue: curve) ?? .Linear
   }
@@ -28,5 +28,9 @@ public struct KeyboardInfo {
     default:
       return .CurveLinear
     }
+  }
+
+  public var height: CGFloat {
+    return frame.height
   }
 }
