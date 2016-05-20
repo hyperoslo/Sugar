@@ -8,7 +8,7 @@ public class ConstraintKeyboardHandler: KeyboardHandler {
   public init() {}
 
   public func willShow(info: KeyboardInfo) {
-    constraint?.constant = info.height
+    constraint?.constant = -info.height
     UIView.animateWithDuration(info.duration, delay: 0, options: info.animation, animations: { [weak self] in
       self?.view?.layoutIfNeeded()
     }, completion: nil)
