@@ -9,36 +9,50 @@ Sugar is a sweetener for your Cocoa implementations.
 [![Platform](https://img.shields.io/cocoapods/p/Sugar.svg?style=flat)](http://cocoadocs.org/docsets/Sugar)
 ![Swift](https://img.shields.io/badge/%20in-swift%202.2-orange.svg)
 
-## Table of Contents
+Table of Contents
+--
 
 <img src="https://raw.githubusercontent.com/hyperoslo/Sugar/master/Images/icon.png" alt="Hue Icon" align="right" />
 
-* [iOS](#ios)
-  * [Application](#application)
-  * [Screen](#screen)
-  * [Simulator](#simulator)
-  * [iOS Extensions](#ios-extensions)
-    * [UICollectionView](#uicollectionView)
-    * [UITableView](#uitableView)
-    * [UIView](#uiview)
-    * [UIImage](#uiimage)
-* [Shared](#shared)
-  * [Dates](#dates)
-  * [Frame](#frame)
-  * [Grand Central Dispatch](#grand-central-dispatch)
-  * [Localization](#localization)
-  * [Operators](#operators)
-  * [Range](#range)
-  * [Regex](#regex)
-  * [Shared Extensions](#shared-extensions)
-    * [Queueable](#queueable)
-    * [URLStringConvertible](#urlstringconvertible)
-    * [Core Foundation](#corefoundation)
-  * [Swizzler](#swizzler)
-  * [Then](#then)
-  * [Type Alias](#type-alias)
-  * [UITesting](#uitesting)
-  * [UnitTesting](#unittesting)
+<!-- TOC depthFrom:2 depthTo:4 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [iOS](#ios)
+	- [Application](#application)
+	- [Screen](#screen)
+	- [Simulator](#simulator)
+	- [Keyboard Observer](#keyboard-observer)
+	- [iOS Extensions](#ios-extensions)
+		- [UICollectionView](#uicollectionview)
+		- [UITableView](#uitableview)
+		- [UIView](#uiview)
+		- [UIImage](#uiimage)
+- [OS X](#os-x)
+	- [OS X Extensions](#os-x-extensions)
+		- [NSTableView](#nstableview)
+- [Shared](#shared)
+	- [Dates](#dates)
+		- [Compare](#compare)
+		- [Construct](#construct)
+	- [Frame](#frame)
+	- [Grand Central Dispatch](#grand-central-dispatch)
+	- [Localization](#localization)
+	- [Operators](#operators)
+	- [Range](#range)
+	- [Regex](#regex)
+	- [Shared Extensions](#shared-extensions)
+		- [+Queueable](#queueable)
+		- [URLStringConvertible](#urlstringconvertible)
+		- [Core Foundation](#core-foundation)
+	- [Swizzler](#swizzler)
+		- [Then](#then)
+	- [Type Alias](#type-alias)
+	- [UITesting](#uitesting)
+	- [UnitTesting](#unittesting)
+- [Installation](#installation)
+- [Author](#author)
+- [License](#license)
+
+<!-- /TOC -->
 
 ## iOS
 
@@ -74,11 +88,35 @@ if !Simulator.isRunning {
 To easily exclude operations from when you as a developer runs the application in the simulator,
 not subscribing to push notification or running analytics operations etc.
 
+### Keyboard Observer
+
+Observe keyboard showing and hiding events, and handle it
+
+```swift
+let handler = BasicKeyboardHandler()
+handler.show = { [weak self] height in
+  // move text fields up
+}
+
+handler.hide = { [weak self] in
+  // move text fields back to original position
+}
+
+keyboardObserver = KeyboardObserver(handler: handler)
+```
+
+Currently support
+
+- BasicKeyboardHandler: basic UIView animation
+- InsetKeyboardHandler: animate UIScrollView insets
+- ConstraintKeyboardHandler: animate bottom layout constraint
+- CustomKeyboardHandler: custom handling
+
 ### iOS Extensions
 
-### UICollectionView
+#### UICollectionView
 
-#### +Indexes
+##### +Indexes
 
 ```swift
 let collectionView = UICollectionView()
@@ -91,9 +129,9 @@ collectionView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
 Enables you to easily run insert, update, delete, reload methods for a collection view by using `Int`s instead
 of `NSIndexPath` and `NSIndexSet`.
 
-### UITableView
+#### UITableView
 
-#### +Indexes
+##### +Indexes
 
 ```swift
 let tableView = UITableView()
@@ -127,9 +165,27 @@ image.original // imageWithRenderingMode(.AlwaysOriginal)
 image.template // imageWithRenderingMode(.AlwaysTemplate)
 ```
 
+## OS X
+
+### OS X Extensions
+
+#### NSTableView
+
+##### +Indexes
+
+```swift
+let tableView = NSTableView()
+tableView.insert([1,2,3]) // ([Int] -> [NSIndexPaths]).{ insertRowsAtIndexPaths }
+tableView.reload([1,2,3]) // ([Int] -> [NSIndexPaths]).{ reloadRowsAtIndexPaths }
+tableView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
+tableView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
+```
+
 ## Shared
 
 ### Dates
+
+#### Compare
 
 ```swift
 if date1 < date2 {
@@ -137,6 +193,13 @@ if date1 < date2 {
 } else if date1 >= date2 {
   // do something else
 }
+```
+
+#### Construct
+
+```swift
+let _ = 5.day
+let _ = 3.week
 ```
 
 ### Frame
