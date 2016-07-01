@@ -114,36 +114,6 @@ Currently support
 
 ### iOS Extensions
 
-#### UICollectionView
-
-##### +Indexes
-
-```swift
-let collectionView = UICollectionView()
-collectionView.insert([1,2,3]) // ([Int] -> [NSIndexPaths]).{ insertRowsAtIndexPaths }
-collectionView.reload([1,2,3]) // ([Int] -> [NSIndexPaths]).{ reloadRowsAtIndexPaths }
-collectionView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
-collectionView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
-```
-
-Enables you to easily run insert, update, delete, reload methods for a collection view by using `Int`s instead
-of `NSIndexPath` and `NSIndexSet`.
-
-#### UITableView
-
-##### +Indexes
-
-```swift
-let tableView = UITableView()
-tableView.insert([1,2,3]) // ([Int] -> [NSIndexPaths]).{ insertRowsAtIndexPaths }
-tableView.reload([1,2,3]) // ([Int] -> [NSIndexPaths]).{ reloadRowsAtIndexPaths }
-tableView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
-tableView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
-```
-
-Enables you to easily run insert, update, delete, reload methods for a table view by using `Int`s instead
-of `NSIndexPath` and `NSIndexSet`.
-
 #### UIView
 
 ##### .optimize()
@@ -165,23 +135,13 @@ image.original // imageWithRenderingMode(.AlwaysOriginal)
 image.template // imageWithRenderingMode(.AlwaysTemplate)
 ```
 
-## OS X
+## Shared
 
-### OS X Extensions
-
-#### NSTableView
-
-##### +Indexes
+### SequenceType
 
 ```swift
-let tableView = NSTableView()
-tableView.insert([1,2,3]) // ([Int] -> [NSIndexPaths]).{ insertRowsAtIndexPaths }
-tableView.reload([1,2,3]) // ([Int] -> [NSIndexPaths]).{ reloadRowsAtIndexPaths }
-tableView.delete([1,2,3]) // ([Int] -> [NSIndexPaths]).{ deleteRowsAtIndexPaths }
-tableView.reloadSection() // ([Int] -> [NSIndexSet]).{ reloadSections }
+let first: Int? = items.findFirst({ $0 > 10 })
 ```
-
-## Shared
 
 ### Dates
 
