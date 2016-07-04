@@ -1,4 +1,8 @@
-import UIKit
+#if os(iOS)
+  import UIKit
+#else
+  import Cocoa
+#endif
 
 public struct Application {
 
