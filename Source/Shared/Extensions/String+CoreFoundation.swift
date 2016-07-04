@@ -27,4 +27,14 @@ public extension String {
   func trim() -> String {
     return stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
   }
+
+  var uppercaseFirstLetter: String {
+    guard isPresent else { return self }
+
+    var string = self
+    string.replaceRange(string.startIndex...string.startIndex,
+                        with: String(string[string.startIndex]).capitalizedString)
+
+    return string
+  }
 }
