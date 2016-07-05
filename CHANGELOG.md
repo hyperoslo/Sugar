@@ -1,5 +1,27 @@
 # Change Log
 
+## [Unreleased](https://github.com/hyperoslo/Sugar/tree/HEAD)
+
+[Full Changelog](https://github.com/hyperoslo/Sugar/compare/1.1.1...HEAD)
+
+**Merged pull requests:**
+
+- Move Application to Shared [\#81](https://github.com/hyperoslo/Sugar/pull/81) ([zenangst](https://github.com/zenangst))
+- Fix/refactor [\#80](https://github.com/hyperoslo/Sugar/pull/80) ([onmyway133](https://github.com/onmyway133))
+- Update README [\#77](https://github.com/hyperoslo/Sugar/pull/77) ([onmyway133](https://github.com/onmyway133))
+- Add KeyboardObserver and Handler to handle keyboard events [\#76](https://github.com/hyperoslo/Sugar/pull/76) ([onmyway133](https://github.com/onmyway133))
+- Feature indexes for OS X [\#75](https://github.com/hyperoslo/Sugar/pull/75) ([zenangst](https://github.com/zenangst))
+- Add syntactic sugar for constructing NSDate [\#74](https://github.com/hyperoslo/Sugar/pull/74) ([onmyway133](https://github.com/onmyway133))
+- Add Action as typealias [\#73](https://github.com/hyperoslo/Sugar/pull/73) ([onmyway133](https://github.com/onmyway133))
+- Feature/uiimage check [\#72](https://github.com/hyperoslo/Sugar/pull/72) ([onmyway133](https://github.com/onmyway133))
+
+## [1.1.1](https://github.com/hyperoslo/Sugar/tree/1.1.1) (2016-04-25)
+[Full Changelog](https://github.com/hyperoslo/Sugar/compare/1.1.0...1.1.1)
+
+**Merged pull requests:**
+
+- Add CHANGELOG.md [\#71](https://github.com/hyperoslo/Sugar/pull/71) ([zenangst](https://github.com/zenangst))
+
 ## [1.1.0](https://github.com/hyperoslo/Sugar/tree/1.1.0) (2016-04-24)
 [Full Changelog](https://github.com/hyperoslo/Sugar/compare/1.0.13...1.1.0)
 
