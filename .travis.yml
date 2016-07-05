@@ -6,3 +6,5 @@ script:
 - xcodebuild test -project Sugar.xcodeproj -scheme Sugar-iOS -sdk iphonesimulator
 - xcodebuild clean build -project Sugar.xcodeproj -scheme Sugar-Mac -sdk macosx
 - xcodebuild test -project Sugar.xcodeproj -scheme Sugar-Mac -sdk macosx
+- xcodebuild clean build -project Sugar.xcodeproj -scheme Sugar-tvOS -sdk macosx
+- xcodebuild test -project Sugar.xcodeproj -scheme Sugar-tvOS -sdk macosx
