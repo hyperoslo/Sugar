@@ -239,7 +239,7 @@ if stringNumber.isNumber() {
   // Is a number
 }
 
-if stringNumber.matches("^[0-9]*?$") {
+if stringNumber.matches("^[0-9]+$") {
   // Is a number
 }
 ```
