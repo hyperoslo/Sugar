@@ -1,23 +1,25 @@
 import Foundation
 
+typealias Dispatcher = Dispatch.DispatchQueue
+
 public enum DispatchQueue {
   case main, interactive, initiated, utility, background, custom(Dispatch.DispatchQueue)
 }
 
 private func getQueue(queue queueType: DispatchQueue = .main) -> Dispatch.DispatchQueue {
-  let queue: Dispatch.DispatchQueue
+  let queue: Dispatcher
 
   switch queueType {
   case .main:
-    queue = DispatchQueue.main
+    queue = Dispatcher.main
   case .interactive:
-    queue = DispatchQueue.global(qos: DispatchQoS.QoSClass.userInteractive)
+    queue = Dispatcher.global(qos: DispatchQoS.QoSClass.userInteractive)
   case .initiated:
-    queue = DispatchQueue.global(qos: DispatchQoS.QoSClass.userInitiated)
+    queue = Dispatcher.global(qos: DispatchQoS.QoSClass.userInitiated)
   case .utility:
-    queue = DispatchQueue.global(qos: DispatchQoS.QoSClass.utility)
+    queue = Dispatcher.global(qos: DispatchQoS.QoSClass.utility)
   case .background:
-    queue = DispatchQueue.global(qos: DispatchQoS.QoSClass.background)
+    queue = Dispatcher.global(qos: DispatchQoS.QoSClass.background)
   case .custom(let userQueue):
     queue = userQueue
   }

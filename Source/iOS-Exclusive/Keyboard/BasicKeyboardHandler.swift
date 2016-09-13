@@ -6,7 +6,7 @@ open class BasicKeyboardHandler: KeyboardHandler {
 
   open func willShow(_ info: KeyboardInfo) {
     UIView.animate(withDuration: info.duration, delay: 0, options: info.animation, animations: { [weak self] in
-      self?.show?(height: info.height)
+      self?.show?(info.height)
     }, completion: nil)
   }
 

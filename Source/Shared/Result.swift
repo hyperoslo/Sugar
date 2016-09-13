@@ -1,4 +1,4 @@
-public enum Result<T, Error: Error> {
+public enum Result<T, error: Error> {
   case success(T)
   case failure(Error)
 }
