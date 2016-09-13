@@ -3,12 +3,12 @@ import UIKit
 open class InsetKeyboardHandler: KeyboardHandler {
 
   open weak var scrollView: UIScrollView?
-  open var originalInsets: UIEdgeInsets = UIEdgeInsets.zero
+  open var originalInsets: UIEdgeInsets = .zero
 
   public init() {}
 
   open func willShow(_ info: KeyboardInfo) {
-    originalInsets = scrollView?.contentInset ?? UIEdgeInsets.zero
+    originalInsets = scrollView?.contentInset ?? .zero
     var insets = originalInsets
     insets.bottom = info.height
 

@@ -34,15 +34,15 @@ public extension UIDevice {
     return result
   }
     
-    public static func isPhone() -> Bool {
-        return UIDevice().userInterfaceIdiom == .phone
-    }
+  public static func isPhone() -> Bool {
+    return UIDevice().userInterfaceIdiom == .phone
+  }
 
-    public static func isPad() -> Bool {
-        return UIDevice().userInterfaceIdiom == .pad
-    }
+  public static func isPad() -> Bool {
+    return UIDevice().userInterfaceIdiom == .pad
+  }
 
-    public static func isSimulator() -> Bool {
-        return Simulator.isRunning
-    }
+  public static func isSimulator() -> Bool {
+    return Simulator.isRunning
+  }
 }
