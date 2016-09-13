@@ -1,17 +1,17 @@
 import UIKit
 
-public class CustomKeyboardHandler: KeyboardHandler {
+open class CustomKeyboardHandler: KeyboardHandler {
 
   public init() {}
   
-  public func willShow(info: KeyboardInfo) {
-    show?(info: info)
+  open func willShow(_ info: KeyboardInfo) {
+    show?(info)
   }
 
-  public func willHide(info: KeyboardInfo) {
-    hide?(info: info)
+  open func willHide(_ info: KeyboardInfo) {
+    hide?(info)
   }
 
-  public var show: ((info: KeyboardInfo) -> Void)?
-  public var hide: ((info: KeyboardInfo) -> Void)?
+  open var show: ((_ info: KeyboardInfo) -> Void)?
+  open var hide: ((_ info: KeyboardInfo) -> Void)?
 }

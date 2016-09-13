@@ -7,17 +7,17 @@ class DateTests: XCTestCase {
   internal override func setUp() {
     super.setUp()
     
-    NSTimeZone.setDefaultTimeZone(NSTimeZone(forSecondsFromGMT: 0))
+    NSTimeZone.setDefaultTimeZone(TimeZone(secondsFromGMT: 0))
   }
   
   internal override func tearDown() {
     super.tearDown()
     
-    NSTimeZone.setDefaultTimeZone(NSTimeZone.defaultTimeZone())
+    NSTimeZone.setDefaultTimeZone(TimeZone.current)
   }
   
   func testComponent() {
-    let date = NSDate(timeIntervalSince1970: 1456983015)
+    let date = Date(timeIntervalSince1970: 1456983015)
     
     XCTAssert(date.second == 15)
     XCTAssert(date.minute == 30)

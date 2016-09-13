@@ -1,15 +1,15 @@
 import Foundation
 
-public func localizedString(key: String, _ bundleClass: AnyClass? = nil, comment: String? = nil) -> String {
+public func localizedString(_ key: String, _ bundleClass: AnyClass? = nil, comment: String? = nil) -> String {
   if let bundleClass = bundleClass {
-    return NSLocalizedString(key, bundle: NSBundle(forClass: bundleClass), comment: (comment != nil) ? comment! : key)
+    return NSLocalizedString(key, bundle: Bundle(for: bundleClass), comment: (comment != nil) ? comment! : key)
   } else {
-    return NSLocalizedString(key, bundle: NSBundle.mainBundle(), comment: (comment != nil) ? comment! : key)
+    return NSLocalizedString(key, bundle: Bundle.main, comment: (comment != nil) ? comment! : key)
   }
 }
 
-public func localizedString(key: String, _ bundleClass: AnyClass? = nil, comment: String? = nil, arguments: CVarArgType...) -> String {
+public func localizedString(_ key: String, _ bundleClass: AnyClass? = nil, comment: String? = nil, arguments: CVarArg...) -> String {
   return withVaList(arguments) {
-    NSString(format: localizedString(key, bundleClass, comment: comment), locale: NSLocale.currentLocale(), arguments: $0)
+    (NSString(format: localizedString(key, bundleClass, comment: comment), locale: Locale.current, arguments: $0) as String)
     } as String
 }

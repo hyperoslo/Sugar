@@ -3,7 +3,7 @@ import Foundation
 public extension String {
     
     public var isEmptyOrWhiteSpace: Bool {
-        return stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()).isEmpty
+        return trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).isEmpty
     }
 }
 

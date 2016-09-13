@@ -4,18 +4,20 @@ import Sugar
 
 class Swizzled: NSObject {
 
+  private static var __once: () = {
+      Swizzler.swizzle("method", cls: self)
+    }()
+
   override class func initialize() {
     struct Static {
-      static var token: dispatch_once_t = 0
+      static var token: Int = 0
     }
 
     if self !== Swizzled.self {
       return
     }
 
-    dispatch_once(&Static.token) {
-      Swizzler.swizzle("method", cls: self)
-    }
+    _ = Swizzled.__once
   }
 
   dynamic func method() -> Bool {

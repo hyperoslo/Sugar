@@ -1,73 +1,73 @@
 import Foundation
 
-extension NSDate : Comparable {}
+extension Date : Comparable {}
 
-public func < (lhs: NSDate, rhs: NSDate) -> Bool {
+public func < (lhs: Date, rhs: Date) -> Bool {
   return lhs.timeIntervalSince1970 < rhs.timeIntervalSince1970
 }
 
-public func <= (lhs: NSDate, rhs: NSDate) -> Bool {
+public func <= (lhs: Date, rhs: Date) -> Bool {
   return lhs.timeIntervalSince1970 <= rhs.timeIntervalSince1970
 }
 
-public func >= (lhs: NSDate, rhs: NSDate) -> Bool {
+public func >= (lhs: Date, rhs: Date) -> Bool {
   return lhs.timeIntervalSince1970 >= rhs.timeIntervalSince1970
 }
 
-public func > (lhs: NSDate, rhs: NSDate) -> Bool {
+public func > (lhs: Date, rhs: Date) -> Bool {
   return lhs.timeIntervalSince1970 > rhs.timeIntervalSince1970
 }
 
 
 // MARK: - Components
 
-public extension NSDate {
+public extension Date {
   
-  public func components(unit: NSCalendarUnit, retrieval: NSDateComponents -> Int) -> Int {
-    let calendar = NSCalendar.currentCalendar()
-    let components = calendar.components(unit, fromDate: self)
+  public func components(_ unit: NSCalendar.Unit, retrieval: (DateComponents) -> Int) -> Int {
+    let calendar = Calendar.current
+    let components = (calendar as NSCalendar).components(unit, from: self)
     return retrieval(components)
   }
   
   public var second: Int {
-    return components(.Second) {
-      return $0.second
+    return components(.second) {
+      return $0.second!
     }
   }
   
   public var minute: Int {
-    return components(.Minute) {
-      return $0.minute
+    return components(.minute) {
+      return $0.minute!
     }
   }
   
   public var hour: Int {
-    return components(.Hour) {
-      return $0.hour
+    return components(.hour) {
+      return $0.hour!
     }
   }
   
   public var day: Int {
-    return components(.Day) {
-      return $0.day
+    return components(.day) {
+      return $0.day!
     }
   }
   
   public var month: Int {
-    return components(.Month) {
-      return $0.month
+    return components(.month) {
+      return $0.month!
     }
   }
   
   public var year: Int {
-    return components(.Year) {
-      return $0.year
+    return components(.year) {
+      return $0.year!
     }
   }
   
   public var weekday: Int {
-    return components(.Weekday) {
-      return $0.weekday
+    return components(.weekday) {
+      return $0.weekday!
     }
   }
 }

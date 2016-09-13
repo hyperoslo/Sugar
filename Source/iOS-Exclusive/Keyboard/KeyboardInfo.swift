@@ -2,31 +2,31 @@ import UIKit
 
 public struct KeyboardInfo {
   public let frame: CGRect
-  public let duration: NSTimeInterval
+  public let duration: TimeInterval
   public let curve: UIViewAnimationCurve
 
-  public init?(notification: NSNotification) {
-    guard let userInfo = notification.userInfo,
-      value = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue,
-      duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? NSTimeInterval,
-      curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int
+  public init?(notification: Notification) {
+    guard let userInfo = (notification as NSNotification).userInfo,
+      let value = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue,
+      let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
+      let curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int
       else { return nil }
 
-    self.frame = value.CGRectValue()
+    self.frame = value.cgRectValue
     self.duration = duration
-    self.curve = UIViewAnimationCurve(rawValue: curve) ?? .Linear
+    self.curve = UIViewAnimationCurve(rawValue: curve) ?? .linear
   }
 
   public var animation: UIViewAnimationOptions {
     switch curve {
-    case .EaseIn:
-      return .CurveEaseIn
-    case .EaseOut:
-      return .CurveEaseOut
-    case .EaseInOut:
-      return .CurveEaseInOut
+    case .easeIn:
+      return .curveEaseIn
+    case .easeOut:
+      return .curveEaseOut
+    case .easeInOut:
+      return UIViewAnimationOptions()
     default:
-      return .CurveLinear
+      return .curveLinear
     }
   }
 

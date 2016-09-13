@@ -626,9 +626,11 @@
 					};
 					D56DAA771C206516003E7253 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					D56DAA811C206516003E7253 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -1127,6 +1129,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.Sugar;
 				PRODUCT_NAME = Sugar;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1144,6 +1147,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.Sugar;
 				PRODUCT_NAME = Sugar;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1154,6 +1158,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SugarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1164,6 +1169,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SugarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1186,6 +1192,7 @@
 				BD9FDD591D2BDB1C0085F584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA4479E1C2946BC003FDEAD /* Build configuration list for PBXNativeTarget "Sugar-Mac" */ = {
 			isa = XCConfigurationList;

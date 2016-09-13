@@ -5,35 +5,35 @@ public extension String {
   var length: Int { return characters.count }
   var isPresent: Bool { return !isEmpty }
 
-  func replace(string: String, with withString: String) -> String {
-    return stringByReplacingOccurrencesOfString(string, withString: withString)
+  func replace(_ string: String, with withString: String) -> String {
+    return replacingOccurrences(of: string, with: withString)
   }
 
-  func truncate(length: Int, suffix: String = "...") -> String {
+  func truncate(_ length: Int, suffix: String = "...") -> String {
     return self.length > length
-      ? substringToIndex(startIndex.advancedBy(length)) + suffix
+      ? substring(to: characters.index(startIndex, offsetBy: length)) + suffix
       : self
   }
 
-  func split(delimiter: String) -> [String] {
-    let components = componentsSeparatedByString(delimiter)
+  func split(_ delimiter: String) -> [String] {
+    let components = self.components(separatedBy: delimiter)
     return components != [""] ? components : []
   }
 
-  func contains(find: String) -> Bool {
-    return rangeOfString(find) != nil
+  func contains(_ find: String) -> Bool {
+    return range(of: find) != nil
   }
 
   func trim() -> String {
-    return stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+    return trimmingCharacters(in: CharacterSet.whitespaces)
   }
 
   var uppercaseFirstLetter: String {
     guard isPresent else { return self }
 
     var string = self
-    string.replaceRange(string.startIndex...string.startIndex,
-                        with: String(string[string.startIndex]).capitalizedString)
+    string.replaceSubrange(string.startIndex...string.startIndex,
+                        with: String(string[string.startIndex]).capitalized)
 
     return string
   }

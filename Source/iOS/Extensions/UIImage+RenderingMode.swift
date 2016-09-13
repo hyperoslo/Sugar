@@ -3,10 +3,10 @@ import UIKit
 public extension UIImage {
 
   public var original: UIImage {
-    return imageWithRenderingMode(.AlwaysOriginal)
+    return withRenderingMode(.alwaysOriginal)
   }
 
   public var template: UIImage {
-    return imageWithRenderingMode(.AlwaysTemplate)
+    return withRenderingMode(.alwaysTemplate)
   }
 }
