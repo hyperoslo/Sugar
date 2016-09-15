@@ -5,7 +5,7 @@ import Sugar
 class Swizzled: NSObject {
 
   private static var __once: () = {
-    Swizzler.swizzle("method", cls: self)
+    Swizzler.swizzle("method", cls: classForCoder())
   }()
 
   override class func initialize() {

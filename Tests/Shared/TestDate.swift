@@ -6,14 +6,16 @@ class DateTests: XCTestCase {
 
   internal override func setUp() {
     super.setUp()
-    
-    NSTimeZone.setDefaultTimeZone(TimeZone(secondsFromGMT: 0))
+
+    if let timeZone = TimeZone(secondsFromGMT: 0) {
+      NSTimeZone.default = timeZone
+    }
   }
   
   internal override func tearDown() {
     super.tearDown()
-    
-    NSTimeZone.setDefaultTimeZone(TimeZone.current)
+
+    NSTimeZone.default = TimeZone.current
   }
   
   func testComponent() {

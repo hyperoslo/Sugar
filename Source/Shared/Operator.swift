@@ -1,6 +1,11 @@
 import Foundation
 
-infix operator ?= { associativity right precedence 90 }
+precedencegroup Comparison {
+  associativity: left
+  higherThan: LogicalConjunctionPrecedence
+}
+
+infix operator ?= : Comparison
 
 public func ?=<T>(left: inout T, right: T?) {
   guard let value = right else { return }
