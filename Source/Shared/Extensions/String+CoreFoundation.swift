@@ -20,10 +20,6 @@ public extension String {
     return components != [""] ? components : []
   }
 
-  func contains(_ find: String) -> Bool {
-    return range(of: find) != nil
-  }
-
   func trim() -> String {
     return trimmingCharacters(in: CharacterSet.whitespaces)
   }
