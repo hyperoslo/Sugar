@@ -12,10 +12,10 @@ public enum Regex: String {
 
 public extension String {
 
-  public func match(pattern: String) -> Bool {
+  public func match(_ pattern: String) -> Bool {
     do {
-      let regex = try NSRegularExpression(pattern: pattern, options: [.CaseInsensitive])
-      return regex.firstMatchInString(self, options: NSMatchingOptions(rawValue: 0), range: NSMakeRange(0, characters.count)) != nil
+      let regex = try NSRegularExpression(pattern: pattern, options: [.caseInsensitive])
+      return regex.firstMatch(in: self, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, characters.count)) != nil
     } catch {
       return false
     }

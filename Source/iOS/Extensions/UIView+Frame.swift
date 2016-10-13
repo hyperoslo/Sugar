@@ -4,7 +4,7 @@ public extension UIView {
 
   public var height: CGFloat {
     get {
-      return CGRectGetHeight(frame)
+      return frame.height
     }
     set {
       frame.size.height = newValue
@@ -13,7 +13,7 @@ public extension UIView {
 
   public var width: CGFloat {
     get {
-      return CGRectGetWidth(frame)
+      return frame.width
     }
     set {
       frame.size.width = newValue
@@ -22,7 +22,7 @@ public extension UIView {
 
   public var x: CGFloat {
     get {
-      return CGRectGetMinX(frame)
+      return frame.minX
     }
     set {
       frame.origin.x = newValue
@@ -31,7 +31,7 @@ public extension UIView {
 
   public var y: CGFloat {
     get {
-      return CGRectGetMinY(frame)
+      return frame.minY
     }
     set {
       frame.origin.y = newValue

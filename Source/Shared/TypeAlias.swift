@@ -1,3 +1,3 @@
-public typealias JSONArray = [[String : AnyObject]]
-public typealias JSONDictionary = [String : AnyObject]
+public typealias JSONArray = [[String : Any]]
+public typealias JSONDictionary = [String : Any]
 public typealias Action = () -> Void

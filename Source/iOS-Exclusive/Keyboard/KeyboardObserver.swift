@@ -1,6 +1,6 @@
 import UIKit
 
-public class KeyboardObserver: NSObject {
+open class KeyboardObserver: NSObject {
 
   let handler: KeyboardHandler
 
@@ -15,26 +15,26 @@ public class KeyboardObserver: NSObject {
 
   // MARK: - Notification
 
-  public func activate() {
-    NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(handleKeyboardWillShow(_:)),
-                                                     name: UIKeyboardWillShowNotification, object: nil)
-    NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(handleKeyboardWillHide(_:)),
-                                                     name: UIKeyboardWillHideNotification, object: nil)
+  open func activate() {
+    NotificationCenter.default.addObserver(self, selector: #selector(handleKeyboardWillShow(_:)),
+                                                     name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(handleKeyboardWillHide(_:)),
+                                                     name: NSNotification.Name.UIKeyboardWillHide, object: nil)
   }
 
-  public func deactivate() {
-    NSNotificationCenter.defaultCenter().removeObserver(self)
+  open func deactivate() {
+    NotificationCenter.default.removeObserver(self)
   }
 
   // MARK: - Handling
 
-  func handleKeyboardWillShow(notification: NSNotification) {
+  func handleKeyboardWillShow(_ notification: Notification) {
     guard let info = KeyboardInfo(notification: notification) else { return }
 
     self.handler.willShow(info)
   }
 
-  func handleKeyboardWillHide(notification: NSNotification) {
+  func handleKeyboardWillHide(_ notification: Notification) {
     guard let info = KeyboardInfo(notification: notification) else { return }
 
     self.handler.willHide(info)

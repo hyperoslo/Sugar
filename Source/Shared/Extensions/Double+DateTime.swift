@@ -2,39 +2,39 @@ import Foundation
 
 public extension Double {
 
-  var second: NSTimeInterval {
+  var second: TimeInterval {
     return self
   }
 
-  var minute: NSTimeInterval {
+  var minute: TimeInterval {
     return second * 60
   }
 
-  var hour: NSTimeInterval {
+  var hour: TimeInterval {
     return minute * 60
   }
 
-  var day: NSTimeInterval {
+  var day: TimeInterval {
     return hour * 24
   }
 
-  var week: NSTimeInterval {
+  var week: TimeInterval {
     return day * 7
   }
 
-  var month: NSTimeInterval {
+  var month: TimeInterval {
     return day * 30
   }
 
-  var year: NSTimeInterval {
+  var year: TimeInterval {
     return day * 365
   }
 
-  var ago: NSDate {
-    return NSDate(timeIntervalSinceNow: -self)
+  var ago: Date {
+    return Date(timeIntervalSinceNow: -self)
   }
 
-  var future: NSDate {
-    return NSDate(timeIntervalSinceNow: self)
+  var future: Date {
+    return Date(timeIntervalSinceNow: self)
   }
 }

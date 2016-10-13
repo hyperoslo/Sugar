@@ -1,14 +1,14 @@
 import Foundation
 
 public protocol URLStringConvertible {
-  var url: NSURL? { get }
+  var url: URL? { get }
   var string: String { get }
 }
 
 extension String: URLStringConvertible {
 
-  public var url: NSURL? {
-    return NSURL(string: self)
+  public var url: URL? {
+    return URL(string: self)
   }
 
   public var string: String {

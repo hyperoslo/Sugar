@@ -4,12 +4,12 @@ public protocol Queueable {
 
 public extension Array where Element : Queueable {
 
-  public mutating func processQueue(from: Int = 0, _ to: Int? = nil, process: ((element: Element) -> Void)? = nil) {
+  public mutating func processQueue(_ from: Int = 0, _ to: Int? = nil, process: ((_ element: Element) -> Void)? = nil) {
     let to = to != nil ? to! : count
     let currentQueue = self[from..<to]
-    for (index, element) in currentQueue.enumerate() where element.process() {
-      process?(element: element)
-      removeAtIndex(index - (currentQueue.count - self.count))
+    for (index, element) in currentQueue.enumerated() where element.process() {
+      process?(element)
+      remove(at: index - (currentQueue.count - self.count))
     }
   }
 }

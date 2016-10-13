@@ -4,10 +4,10 @@ import QuartzCore
 public struct UnitTesting {
 
   public static var isRunning: Bool {
-    return NSProcessInfo.processInfo().environment["XCInjectBundle"] != nil
+    return ProcessInfo.processInfo.environment["XCInjectBundle"] != nil
   }
 
-  public static func measure(closure: () -> Void) -> Float {
+  public static func measure(_ closure: () -> Void) -> Float {
     let start = CACurrentMediaTime()
     closure()
     let end = CACurrentMediaTime()

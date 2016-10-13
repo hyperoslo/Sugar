@@ -8,17 +8,17 @@ public extension UIDevice {
     case iPhone6
     case iPhone6Plus
     case iPad
-    case Unknown
+    case unknown
   }
 
   public var kind: DeviceKind {
-    guard userInterfaceIdiom == .Phone else {
+    guard userInterfaceIdiom == .phone else {
       return .iPad
     }
 
     let result: DeviceKind
 
-    switch UIScreen.mainScreen().nativeBounds.height {
+    switch UIScreen.main.nativeBounds.height {
     case 960:
       result = .iPhone4
     case 1136:
@@ -28,21 +28,21 @@ public extension UIDevice {
     case 2208:
       result = .iPhone6Plus
     default:
-      result = .Unknown
+      result = .unknown
     }
 
     return result
   }
     
-    public static func isPhone() -> Bool {
-        return UIDevice().userInterfaceIdiom == .Phone
-    }
+  public static func isPhone() -> Bool {
+    return UIDevice().userInterfaceIdiom == .phone
+  }
 
-    public static func isPad() -> Bool {
-        return UIDevice().userInterfaceIdiom == .Pad
-    }
+  public static func isPad() -> Bool {
+    return UIDevice().userInterfaceIdiom == .pad
+  }
 
-    public static func isSimulator() -> Bool {
-        return Simulator.isRunning
-    }
+  public static func isSimulator() -> Bool {
+    return Simulator.isRunning
+  }
 }

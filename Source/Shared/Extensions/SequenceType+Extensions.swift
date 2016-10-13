@@ -1,8 +1,8 @@
 import Foundation
 
-public extension SequenceType {
+public extension Sequence {
   
-  public func findFirst(@noescape predicate: (Self.Generator.Element) -> Bool) -> Self.Generator.Element? {
+  public func findFirst(_ predicate: (Self.Iterator.Element) -> Bool) -> Self.Iterator.Element? {
     for element in self {
       if predicate(element) {
         return element

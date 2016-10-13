@@ -5,11 +5,11 @@ import Sugar
 class OperatorTests: XCTestCase {
 
   func testIfLetAssignment() {
-    let hyper = NSURL(string: "hyper.no")!
-    let faultyURL = NSURL(string: "\\/http")
-    let nilURL: NSURL? = nil
+    let hyper = URL(string: "hyper.no")!
+    let faultyURL = URL(string: "\\/http")
+    let nilURL: URL? = nil
 
-    var testURL: NSURL?
+    var testURL: URL?
     testURL ?= hyper
     XCTAssertEqual(testURL, hyper)
 

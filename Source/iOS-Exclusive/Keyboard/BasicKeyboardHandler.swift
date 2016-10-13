@@ -1,21 +1,21 @@
 import UIKit
 
-public class BasicKeyboardHandler: KeyboardHandler {
+open class BasicKeyboardHandler: KeyboardHandler {
 
   public init() {}
 
-  public func willShow(info: KeyboardInfo) {
-    UIView.animateWithDuration(info.duration, delay: 0, options: info.animation, animations: { [weak self] in
-      self?.show?(height: info.height)
+  open func willShow(_ info: KeyboardInfo) {
+    UIView.animate(withDuration: info.duration, delay: 0, options: info.animation, animations: { [weak self] in
+      self?.show?(info.height)
     }, completion: nil)
   }
 
-  public func willHide(info: KeyboardInfo) {
-    UIView.animateWithDuration(info.duration, delay: 0, options: info.animation, animations: { [weak self] in
+  open func willHide(_ info: KeyboardInfo) {
+    UIView.animate(withDuration: info.duration, delay: 0, options: info.animation, animations: { [weak self] in
       self?.hide?()
     }, completion: nil)
   }
 
-  public var show: ((height: CGFloat) -> Void)?
-  public var hide: (() -> Void)?
+  open var show: ((_ height: CGFloat) -> Void)?
+  open var hide: (() -> Void)?
 }

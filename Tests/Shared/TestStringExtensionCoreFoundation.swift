@@ -8,12 +8,12 @@ class StringExtensionCoreFoundationTests: XCTestCase {
     var testString = "foo"
 
     XCTAssertEqual(testString.characters.count, testString.length)
-    XCTAssertEqual(testString.lengthOfBytesUsingEncoding(NSUTF8StringEncoding), testString.length)
+    XCTAssertEqual(testString.lengthOfBytes(using: String.Encoding.utf8), testString.length)
 
     testString = "Hyper🚀"
 
     XCTAssertEqual(testString.characters.count, testString.length)
-    XCTAssertNotEqual(testString.lengthOfBytesUsingEncoding(NSUTF8StringEncoding), testString.length)
+    XCTAssertNotEqual(testString.lengthOfBytes(using: String.Encoding.utf8), testString.length)
   }
 
   func testStringReplace() {
@@ -22,7 +22,7 @@ class StringExtensionCoreFoundationTests: XCTestCase {
     let stringC = stringA.replace("-", with: ":")
 
     XCTAssertEqual(stringB, stringC)
-    XCTAssertEqual(stringC, stringA.stringByReplacingOccurrencesOfString("-", withString: ":"))
+    XCTAssertEqual(stringC, stringA.replacingOccurrences(of: "-", with: ":"))
   }
 
   func testStringSplit() {
