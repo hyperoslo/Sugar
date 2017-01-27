@@ -9,7 +9,7 @@ public struct Constraint {
     }
   }
 
-  public static func on(constraints: NSLayoutConstraint ...) {
+  public static func on(_ constraints: NSLayoutConstraint ...) {
     on(constraints: constraints)
   }
 }
@@ -25,12 +25,12 @@ public extension UIView {
   }
 
   @available(iOS 9, *)
-  func pinEdges(view: UIView) {
+  func pinEdges(view: UIView, inset: UIEdgeInsets = UIEdgeInsets.zero) {
     Constraint.on(constraints: [
-      leadingAnchor.constraint(equalTo: view.leadingAnchor),
-      trailingAnchor.constraint(equalTo: view.trailingAnchor),
-      topAnchor.constraint(equalTo: view.topAnchor),
-      bottomAnchor.constraint(equalTo: view.bottomAnchor)
+      leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: inset.left),
+      trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: inset.right),
+      topAnchor.constraint(equalTo: view.topAnchor, constant: inset.top),
+      bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: inset.bottom)
     ])
   }
 
