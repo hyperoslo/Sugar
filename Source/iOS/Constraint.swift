@@ -8,6 +8,10 @@ public struct Constraint {
       $0.isActive = true
     }
   }
+
+  public static func on(constraints: NSLayoutConstraint ...) {
+    on(constraints: constraints)
+  }
 }
 
 public extension UIView {
