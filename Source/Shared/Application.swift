@@ -15,7 +15,9 @@ public struct Application {
   }
 
   public static var name: String = {
-    return Application.getString("CFBundleDisplayName")
+    let displayName = Application.getString("CFBundleDisplayName")
+
+    return !displayName.isEmpty ? displayName : Application.getString("CFBundleName")
   }()
 
   public static var version: String = {
