@@ -109,6 +109,7 @@
 		BDD126AB1D21D0F900C9175F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD126A91D21D0F900C9175F /* Application.swift */; };
 		BDF36EA11CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */; };
 		BDF36EA21CAD272600ED5749 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */; };
+		D20BBE9D1E530FB80075234F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BBE9C1E530FB80075234F /* Utilities.swift */; };
 		D20F42E11D26F8E90000A807 /* SequenceType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F42E01D26F8E90000A807 /* SequenceType+Extensions.swift */; };
 		D20F42E21D26F8E90000A807 /* SequenceType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F42E01D26F8E90000A807 /* SequenceType+Extensions.swift */; };
 		D20F42E41D26F92C0000A807 /* TestSequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F42E31D26F92C0000A807 /* TestSequenceType.swift */; };
@@ -202,6 +203,7 @@
 		BDAF15641C3917A90008A5D6 /* TestThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThen.swift; sourceTree = "<group>"; };
 		BDD126A91D21D0F900C9175F /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
+		D20BBE9C1E530FB80075234F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D20F42E01D26F8E90000A807 /* SequenceType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceType+Extensions.swift"; sourceTree = "<group>"; };
 		D20F42E31D26F92C0000A807 /* TestSequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSequenceType.swift; sourceTree = "<group>"; };
 		D20FF62C1CD1FE2C000F3BFE /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 				BDA447A51C29470D003FDEAD /* Screen.swift */,
 				BDA447A61C29470D003FDEAD /* Simulator.swift */,
 				D2EA3A8E1E38F6970038B04A /* Constraint.swift */,
+				D20BBE9C1E530FB80075234F /* Utilities.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -818,6 +821,7 @@
 				BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */,
 				BD9FDD411D2BDA900085F584 /* CustomKeyboardHandler.swift in Sources */,
 				BDA447BB1C294723003FDEAD /* TypeAlias.swift in Sources */,
+				D20BBE9D1E530FB80075234F /* Utilities.swift in Sources */,
 				BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */,
 				BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */,
 				BDAF15621C3917110008A5D6 /* Then.swift in Sources */,
