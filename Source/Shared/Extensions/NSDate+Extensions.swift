@@ -1,21 +1,5 @@
 import Foundation
 
-public func < (lhs: Date, rhs: Date) -> Bool {
-  return lhs.timeIntervalSince1970 < rhs.timeIntervalSince1970
-}
-
-public func <= (lhs: Date, rhs: Date) -> Bool {
-  return lhs.timeIntervalSince1970 <= rhs.timeIntervalSince1970
-}
-
-public func >= (lhs: Date, rhs: Date) -> Bool {
-  return lhs.timeIntervalSince1970 >= rhs.timeIntervalSince1970
-}
-
-public func > (lhs: Date, rhs: Date) -> Bool {
-  return lhs.timeIntervalSince1970 > rhs.timeIntervalSince1970
-}
-
 // MARK: - Components
 
 public extension Date {
