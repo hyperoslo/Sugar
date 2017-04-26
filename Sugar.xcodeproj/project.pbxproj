@@ -118,6 +118,9 @@
 		D20FF62F1CD1FE6F000F3BFE /* TestUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FF62E1CD1FE6F000F3BFE /* TestUIImage.swift */; };
 		D20FF6311CD2029B000F3BFE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FF6301CD2029B000F3BFE /* String+Extension.swift */; };
 		D20FF6321CD2029B000F3BFE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FF6301CD2029B000F3BFE /* String+Extension.swift */; };
+		D218938B1EB0A34100130E65 /* Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218938A1EB0A34100130E65 /* Once.swift */; };
+		D218938C1EB0A34100130E65 /* Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218938A1EB0A34100130E65 /* Once.swift */; };
+		D218938D1EB0A34100130E65 /* Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218938A1EB0A34100130E65 /* Once.swift */; };
 		D21D1B941CAE680F00BD068E /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
 		D21D1B951CAE680F00BD068E /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
 		D2EA3A8F1E38F6970038B04A /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA3A8E1E38F6970038B04A /* Constraint.swift */; };
@@ -209,6 +212,7 @@
 		D20FF62C1CD1FE2C000F3BFE /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		D20FF62E1CD1FE6F000F3BFE /* TestUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUIImage.swift; sourceTree = "<group>"; };
 		D20FF6301CD2029B000F3BFE /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D218938A1EB0A34100130E65 /* Once.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Once.swift; sourceTree = "<group>"; };
 		D21D1B931CAE680F00BD068E /* TestDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDate.swift; sourceTree = "<group>"; };
 		D2EA3A8E1E38F6970038B04A /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
 		D2FD145E1CE5F27A00EC080B /* Double+DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+DateTime.swift"; sourceTree = "<group>"; };
@@ -357,6 +361,7 @@
 				BDA447AF1C29470D003FDEAD /* TypeAlias.swift */,
 				BDA447B01C29470D003FDEAD /* UITesting.swift */,
 				BDA447B11C29470D003FDEAD /* UnitTesting.swift */,
+				D218938A1EB0A34100130E65 /* Once.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -712,6 +717,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB634751D2BD9FA004E2797 /* Application.swift in Sources */,
+				D218938D1EB0A34100130E65 /* Once.swift in Sources */,
 				BDB634761D2BD9FA004E2797 /* Array+Queueable.swift in Sources */,
 				BDB634771D2BD9FA004E2797 /* NSDate+Extensions.swift in Sources */,
 				BDB634901D2BDA00004E2797 /* UIDevice+Model.swift in Sources */,
@@ -766,6 +772,7 @@
 			files = (
 				D52D72441C3BDEA5009A4426 /* Swizzler.swift in Sources */,
 				BD37B4F11C2C08430069CD4A /* String+CoreFoundation.swift in Sources */,
+				D218938C1EB0A34100130E65 /* Once.swift in Sources */,
 				BDD126AB1D21D0F900C9175F /* Application.swift in Sources */,
 				BD0E01CC1C3BCFEF0092C477 /* Localization.swift in Sources */,
 				BD0D88FB1CB18BF100CDA2C6 /* NSDate+Extensions.swift in Sources */,
@@ -811,6 +818,7 @@
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
 				D2EA3A8F1E38F6970038B04A /* Constraint.swift in Sources */,
 				BD9FDD3F1D2BDA900085F584 /* ConstraintKeyboardHandler.swift in Sources */,
+				D218938B1EB0A34100130E65 /* Once.swift in Sources */,
 				BDA447B81C294723003FDEAD /* String+URLStringConvertible.swift in Sources */,
 				39D4BC281C9C2DDE005D6EC0 /* String+Validation.swift in Sources */,
 				BD9FDD431D2BDA900085F584 /* InsetKeyboardHandler.swift in Sources */,
