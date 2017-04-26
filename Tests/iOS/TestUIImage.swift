@@ -8,4 +8,8 @@ class UIImageTests: XCTestCase {
     XCTAssertEqual(UIImage().hasContent, false)
     XCTAssertEqual(UIImage(color: UIColor.red).hasContent, true)
   }
+
+  func testContent() {
+    XCTAssertNil(UIImage().template)
+  }
 }
