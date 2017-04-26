@@ -1,10 +1,14 @@
 import Foundation
 
-class Once {
+public class Once {
 
   var already: Bool = false
 
-  func run(_ block: () -> Void) {
+  public init() {
+
+  }
+
+  public func run(_ block: () -> Void) {
     guard !already else {
       return
     }
