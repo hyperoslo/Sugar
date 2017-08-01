@@ -2,7 +2,7 @@ import Foundation
 
 public enum Regex: String {
 
-  case Email = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
+  case Email = "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$"
   case Number = "^[0-9]+$"
 
   var pattern: String {
