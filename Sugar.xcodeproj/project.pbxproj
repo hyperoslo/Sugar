@@ -15,10 +15,8 @@
 		BD9FDD5B1D2BDB620085F584 /* TestUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FF62E1CD1FE6F000F3BFE /* TestUIImage.swift */; };
 		BD9FDD5C1D2BDB620085F584 /* TestOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C71C294787003FDEAD /* TestOperators.swift */; };
 		BD9FDD5D1D2BDB620085F584 /* TestQueueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C81C294787003FDEAD /* TestQueueable.swift */; };
-		BD9FDD5E1D2BDB620085F584 /* TestString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA447C91C294787003FDEAD /* TestString.swift */; };
 		BD9FDD5F1D2BDB620085F584 /* TestStringExtensionCoreFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */; };
 		BD9FDD601D2BDB620085F584 /* TestUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */; };
-		BD9FDD611D2BDB620085F584 /* TestSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */; };
 		BD9FDD621D2BDB620085F584 /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
 		BD9FDD631D2BDB620085F584 /* TestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD14611CE5F30500EC080B /* TestDouble.swift */; };
 		BD9FDD641D2BDB620085F584 /* TestSequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F42E31D26F92C0000A807 /* TestSequenceType.swift */; };
@@ -115,9 +113,7 @@
 		D29065F11FAC9A860090DCC8 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290659B1FAC9A700090DCC8 /* UIView+Frame.swift */; };
 		D29065F21FAC9A860090DCC8 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290659C1FAC9A700090DCC8 /* UIView+AddSubviews.swift */; };
 		D29065F31FAC9A860090DCC8 /* UIDevice+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290659D1FAC9A700090DCC8 /* UIDevice+Model.swift */; };
-		D29065F41FAC9A890090DCC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065951FAC9A700090DCC8 /* Utilities.swift */; };
 		D29065F51FAC9A890090DCC8 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065961FAC9A700090DCC8 /* Simulator.swift */; };
-		D29065F61FAC9A8A0090DCC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065951FAC9A700090DCC8 /* Utilities.swift */; };
 		D29065F71FAC9A8A0090DCC8 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065961FAC9A700090DCC8 /* Simulator.swift */; };
 		D29065F81FAC9A8F0090DCC8 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065A21FAC9A700090DCC8 /* KeyboardObserver.swift */; };
 		D29065F91FAC9A8F0090DCC8 /* CustomKeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065A31FAC9A700090DCC8 /* CustomKeyboardHandler.swift */; };
@@ -126,10 +122,9 @@
 		D29065FC1FAC9A8F0090DCC8 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065A61FAC9A700090DCC8 /* KeyboardHandler.swift */; };
 		D29065FD1FAC9A8F0090DCC8 /* ConstraintKeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065A71FAC9A700090DCC8 /* ConstraintKeyboardHandler.swift */; };
 		D29065FE1FAC9A8F0090DCC8 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065A81FAC9A700090DCC8 /* KeyboardInfo.swift */; };
+		D29066001FAC9B5C0090DCC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065FF1FAC9B5C0090DCC8 /* Utilities.swift */; };
 		D2FD14621CE5F30500EC080B /* TestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD14611CE5F30500EC080B /* TestDouble.swift */; };
 		D2FD14631CE5F30500EC080B /* TestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD14611CE5F30500EC080B /* TestDouble.swift */; };
-		D52D72461C3BDFAB009A4426 /* TestSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */; };
-		D52D72471C3BDFAB009A4426 /* TestSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */; };
 		D56DAA831C206516003E7253 /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56DAA781C206516003E7253 /* Sugar.framework */; };
 /* End PBXBuildFile section */
 
@@ -199,7 +194,6 @@
 		D29065911FAC9A700090DCC8 /* Then.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		D29065921FAC9A700090DCC8 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		D29065931FAC9A700090DCC8 /* UnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
-		D29065951FAC9A700090DCC8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D29065961FAC9A700090DCC8 /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 		D29065981FAC9A700090DCC8 /* UIImage+RenderingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+RenderingMode.swift"; sourceTree = "<group>"; };
 		D29065991FAC9A700090DCC8 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -216,8 +210,8 @@
 		D29065A61FAC9A700090DCC8 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		D29065A71FAC9A700090DCC8 /* ConstraintKeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintKeyboardHandler.swift; sourceTree = "<group>"; };
 		D29065A81FAC9A700090DCC8 /* KeyboardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
+		D29065FF1FAC9B5C0090DCC8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D2FD14611CE5F30500EC080B /* TestDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDouble.swift; sourceTree = "<group>"; };
-		D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSwizzler.swift; sourceTree = "<group>"; };
 		D56DAA781C206516003E7253 /* Sugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56DAA821C206516003E7253 /* Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -287,7 +281,6 @@
 				BDA447C91C294787003FDEAD /* TestString.swift */,
 				BDA4481B1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift */,
 				BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */,
-				D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */,
 				D21D1B931CAE680F00BD068E /* TestDate.swift */,
 				D2FD14611CE5F30500EC080B /* TestDouble.swift */,
 				D20F42E31D26F92C0000A807 /* TestSequenceType.swift */,
@@ -390,7 +383,6 @@
 		D29065941FAC9A700090DCC8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D29065951FAC9A700090DCC8 /* Utilities.swift */,
 				D29065961FAC9A700090DCC8 /* Simulator.swift */,
 				D29065971FAC9A700090DCC8 /* Extensions */,
 				D290659E1FAC9A700090DCC8 /* Screen.swift */,
@@ -415,6 +407,7 @@
 		D29065A01FAC9A700090DCC8 /* iOS-Exclusive */ = {
 			isa = PBXGroup;
 			children = (
+				D29065FF1FAC9B5C0090DCC8 /* Utilities.swift */,
 				D29065A11FAC9A700090DCC8 /* Keyboard */,
 			);
 			path = "iOS-Exclusive";
@@ -708,7 +701,6 @@
 			files = (
 				D29065E21FAC9A7E0090DCC8 /* String+Extension.swift in Sources */,
 				D29065E31FAC9A7E0090DCC8 /* String+Regex.swift in Sources */,
-				D29065F61FAC9A8A0090DCC8 /* Utilities.swift in Sources */,
 				D29065DE1FAC9A7E0090DCC8 /* NSDate+Extensions.swift in Sources */,
 				D29065F71FAC9A8A0090DCC8 /* Simulator.swift in Sources */,
 				D29065C81FAC9A790090DCC8 /* Application.swift in Sources */,
@@ -746,10 +738,8 @@
 				BD9FDD5B1D2BDB620085F584 /* TestUIImage.swift in Sources */,
 				BD9FDD5C1D2BDB620085F584 /* TestOperators.swift in Sources */,
 				BD9FDD5D1D2BDB620085F584 /* TestQueueable.swift in Sources */,
-				BD9FDD5E1D2BDB620085F584 /* TestString.swift in Sources */,
 				BD9FDD5F1D2BDB620085F584 /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BD9FDD601D2BDB620085F584 /* TestUnitTesting.swift in Sources */,
-				BD9FDD611D2BDB620085F584 /* TestSwizzler.swift in Sources */,
 				BD9FDD621D2BDB620085F584 /* TestDate.swift in Sources */,
 				BD9FDD631D2BDB620085F584 /* TestDouble.swift in Sources */,
 				D21893911EB0A37500130E65 /* OnceTests.swift in Sources */,
@@ -792,7 +782,6 @@
 				D2FD14631CE5F30500EC080B /* TestDouble.swift in Sources */,
 				BDA447CD1C294787003FDEAD /* TestQueueable.swift in Sources */,
 				BDA447CB1C294787003FDEAD /* TestOperators.swift in Sources */,
-				D52D72471C3BDFAB009A4426 /* TestSwizzler.swift in Sources */,
 				D20F42E51D26F92C0000A807 /* TestSequenceType.swift in Sources */,
 				BDA4481D1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CF1C294787003FDEAD /* TestString.swift in Sources */,
@@ -809,11 +798,11 @@
 			files = (
 				D29065CE1FAC9A7D0090DCC8 /* String+Extension.swift in Sources */,
 				D29065CF1FAC9A7D0090DCC8 /* String+Regex.swift in Sources */,
-				D29065F41FAC9A890090DCC8 /* Utilities.swift in Sources */,
 				D29065CA1FAC9A7D0090DCC8 /* NSDate+Extensions.swift in Sources */,
 				D29065FD1FAC9A8F0090DCC8 /* ConstraintKeyboardHandler.swift in Sources */,
 				D29065F51FAC9A890090DCC8 /* Simulator.swift in Sources */,
 				D29065B21FAC9A780090DCC8 /* Application.swift in Sources */,
+				D29066001FAC9B5C0090DCC8 /* Utilities.swift in Sources */,
 				D29065FA1FAC9A8F0090DCC8 /* BasicKeyboardHandler.swift in Sources */,
 				D29065D31FAC9A7D0090DCC8 /* Double+DateTime.swift in Sources */,
 				D29065F01FAC9A860090DCC8 /* UIView+Optimize.swift in Sources */,
@@ -856,7 +845,6 @@
 				D20FF62F1CD1FE6F000F3BFE /* TestUIImage.swift in Sources */,
 				D218938F1EB0A37500130E65 /* OnceTests.swift in Sources */,
 				BDAF15651C3917A90008A5D6 /* TestThen.swift in Sources */,
-				D52D72461C3BDFAB009A4426 /* TestSwizzler.swift in Sources */,
 				BDA447CA1C294787003FDEAD /* TestOperators.swift in Sources */,
 				D2FD14621CE5F30500EC080B /* TestDouble.swift in Sources */,
 				BDA4481C1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
