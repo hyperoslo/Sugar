@@ -9,12 +9,6 @@ public extension String {
     return replacingOccurrences(of: string, with: withString)
   }
 
-  func truncate(_ length: Int, suffix: String = "...") -> String {
-    return self.length > length
-      ? substring(to: characters.index(startIndex, offsetBy: length)) + suffix
-      : self
-  }
-
   func split(_ delimiter: String) -> [String] {
     let components = self.components(separatedBy: delimiter)
     return components != [""] ? components : []

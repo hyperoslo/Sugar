@@ -1,0 +1,11 @@
+machine:
+  xcode:
+    version: "9.0"
+
+test:
+  override:
+    - set -o pipefail && xcodebuild -project Sugar.xcodeproj -scheme "Sugar-macOS" -sdk macosx clean build
+    - set -o pipefail && xcodebuild -project Sugar.xcodeproj -scheme "Sugar-iOS" -sdk iphonesimulator clean build
+    - set -o pipefail && xcodebuild -project Sugar.xcodeproj -scheme "Sugar-iOS" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.0.1' -enableCodeCoverage YES test
+    - set -o pipefail && xcodebuild -project Sugar.xcodeproj -scheme "Sugar-tvOS" -destination 'platform=tvOS Simulator,name=Apple TV,OS=11.0' clean build
+    - set -o pipefail && xcodebuild -project Sugar.xcodeproj -scheme "Sugar-tvOS" -destination 'platform=tvOS Simulator,name=Apple TV,OS=11.0' -enableCodeCoverage YES test
