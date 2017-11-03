@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BDA447881C2946BB003FDEAD"
                BuildableName = "Sugar.framework"
-               BlueprintName = "Sugar-Mac"
+               BlueprintName = "Sugar-macOS"
                ReferencedContainer = "container:Sugar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,26 +29,7 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BDA447911C2946BC003FDEAD"
-               BuildableName = "Tests-Mac.xctest"
-               BlueprintName = "Tests-Mac"
-               ReferencedContainer = "container:Sugar.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDA447881C2946BB003FDEAD"
-            BuildableName = "Sugar.framework"
-            BlueprintName = "Sugar-Mac"
-            ReferencedContainer = "container:Sugar.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -68,7 +49,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDA447881C2946BB003FDEAD"
             BuildableName = "Sugar.framework"
-            BlueprintName = "Sugar-Mac"
+            BlueprintName = "Sugar-macOS"
             ReferencedContainer = "container:Sugar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -86,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDA447881C2946BB003FDEAD"
             BuildableName = "Sugar.framework"
-            BlueprintName = "Sugar-Mac"
+            BlueprintName = "Sugar-macOS"
             ReferencedContainer = "container:Sugar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
