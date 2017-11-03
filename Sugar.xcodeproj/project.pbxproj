@@ -40,7 +40,6 @@
 		D21D1B951CAE680F00BD068E /* TestDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D1B931CAE680F00BD068E /* TestDate.swift */; };
 		D29065A91FAC9A780090DCC8 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290657E1FAC9A700090DCC8 /* GrandCentralDispatch.swift */; };
 		D29065AA1FAC9A780090DCC8 /* Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290657F1FAC9A700090DCC8 /* Once.swift */; };
-		D29065AB1FAC9A780090DCC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065801FAC9A700090DCC8 /* Localization.swift */; };
 		D29065AC1FAC9A780090DCC8 /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065811FAC9A700090DCC8 /* UITesting.swift */; };
 		D29065AD1FAC9A780090DCC8 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065821FAC9A700090DCC8 /* Operator.swift */; };
 		D29065AE1FAC9A780090DCC8 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065831FAC9A700090DCC8 /* Swizzler.swift */; };
@@ -51,7 +50,6 @@
 		D29065B31FAC9A780090DCC8 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065931FAC9A700090DCC8 /* UnitTesting.swift */; };
 		D29065B41FAC9A780090DCC8 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290657E1FAC9A700090DCC8 /* GrandCentralDispatch.swift */; };
 		D29065B51FAC9A780090DCC8 /* Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290657F1FAC9A700090DCC8 /* Once.swift */; };
-		D29065B61FAC9A780090DCC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065801FAC9A700090DCC8 /* Localization.swift */; };
 		D29065B71FAC9A780090DCC8 /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065811FAC9A700090DCC8 /* UITesting.swift */; };
 		D29065B81FAC9A780090DCC8 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065821FAC9A700090DCC8 /* Operator.swift */; };
 		D29065B91FAC9A780090DCC8 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065831FAC9A700090DCC8 /* Swizzler.swift */; };
@@ -62,7 +60,6 @@
 		D29065BE1FAC9A780090DCC8 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065931FAC9A700090DCC8 /* UnitTesting.swift */; };
 		D29065BF1FAC9A790090DCC8 /* GrandCentralDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290657E1FAC9A700090DCC8 /* GrandCentralDispatch.swift */; };
 		D29065C01FAC9A790090DCC8 /* Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290657F1FAC9A700090DCC8 /* Once.swift */; };
-		D29065C11FAC9A790090DCC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065801FAC9A700090DCC8 /* Localization.swift */; };
 		D29065C21FAC9A790090DCC8 /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065811FAC9A700090DCC8 /* UITesting.swift */; };
 		D29065C31FAC9A790090DCC8 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065821FAC9A700090DCC8 /* Operator.swift */; };
 		D29065C41FAC9A790090DCC8 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29065831FAC9A700090DCC8 /* Swizzler.swift */; };
@@ -175,7 +172,6 @@
 		D21D1B931CAE680F00BD068E /* TestDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDate.swift; sourceTree = "<group>"; };
 		D290657E1FAC9A700090DCC8 /* GrandCentralDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandCentralDispatch.swift; sourceTree = "<group>"; };
 		D290657F1FAC9A700090DCC8 /* Once.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Once.swift; sourceTree = "<group>"; };
-		D29065801FAC9A700090DCC8 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		D29065811FAC9A700090DCC8 /* UITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITesting.swift; sourceTree = "<group>"; };
 		D29065821FAC9A700090DCC8 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		D29065831FAC9A700090DCC8 /* Swizzler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
@@ -349,7 +345,6 @@
 			children = (
 				D290657E1FAC9A700090DCC8 /* GrandCentralDispatch.swift */,
 				D290657F1FAC9A700090DCC8 /* Once.swift */,
-				D29065801FAC9A700090DCC8 /* Localization.swift */,
 				D29065811FAC9A700090DCC8 /* UITesting.swift */,
 				D29065821FAC9A700090DCC8 /* Operator.swift */,
 				D29065831FAC9A700090DCC8 /* Swizzler.swift */,
@@ -723,7 +718,6 @@
 				D29065E51FAC9A7E0090DCC8 /* String+Validation.swift in Sources */,
 				D29065C91FAC9A790090DCC8 /* UnitTesting.swift in Sources */,
 				D29065E11FAC9A7E0090DCC8 /* String+Empty.swift in Sources */,
-				D29065C11FAC9A790090DCC8 /* Localization.swift in Sources */,
 				D29065C61FAC9A790090DCC8 /* TypeAlias.swift in Sources */,
 				D29065C41FAC9A790090DCC8 /* Swizzler.swift in Sources */,
 				D29065DF1FAC9A7E0090DCC8 /* String+CoreFoundation.swift in Sources */,
@@ -768,7 +762,6 @@
 				D29065DB1FAC9A7D0090DCC8 /* String+Validation.swift in Sources */,
 				D29065BE1FAC9A780090DCC8 /* UnitTesting.swift in Sources */,
 				D29065D71FAC9A7D0090DCC8 /* String+Empty.swift in Sources */,
-				D29065B61FAC9A780090DCC8 /* Localization.swift in Sources */,
 				D29065BB1FAC9A780090DCC8 /* TypeAlias.swift in Sources */,
 				D29065B91FAC9A780090DCC8 /* Swizzler.swift in Sources */,
 				D29065D51FAC9A7D0090DCC8 /* String+CoreFoundation.swift in Sources */,
@@ -828,7 +821,6 @@
 				D29065D11FAC9A7D0090DCC8 /* String+Validation.swift in Sources */,
 				D29065B31FAC9A780090DCC8 /* UnitTesting.swift in Sources */,
 				D29065CD1FAC9A7D0090DCC8 /* String+Empty.swift in Sources */,
-				D29065AB1FAC9A780090DCC8 /* Localization.swift in Sources */,
 				D29065B01FAC9A780090DCC8 /* TypeAlias.swift in Sources */,
 				D29065AE1FAC9A780090DCC8 /* Swizzler.swift in Sources */,
 				D29065CB1FAC9A7D0090DCC8 /* String+CoreFoundation.swift in Sources */,
