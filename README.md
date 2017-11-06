@@ -2,7 +2,7 @@
 
 Sugar is a sweetener for your Cocoa implementations.
 
-[![CI Status](http://img.shields.io/travis/hyperoslo/Sugar.svg?style=flat)](https://travis-ci.org/hyperoslo/Sugar)
+[![CI Status](https://circleci.com/gh/hyperoslo/Sugar.png)](https://circleci.com/gh/hyperoslo/Sugar)
 [![Version](https://img.shields.io/cocoapods/v/Sugar.svg?style=flat)](http://cocoadocs.org/docsets/Sugar)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Sugar.svg?style=flat)](http://cocoadocs.org/docsets/Sugar)
