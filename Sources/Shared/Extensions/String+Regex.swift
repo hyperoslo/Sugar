@@ -15,7 +15,7 @@ public extension String {
   public func match(_ pattern: String) -> Bool {
     do {
       let regex = try NSRegularExpression(pattern: pattern, options: [.caseInsensitive])
-      return regex.firstMatch(in: self, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, characters.count)) != nil
+      return regex.firstMatch(in: self, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, self.count)) != nil
     } catch {
       return false
     }
