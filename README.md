@@ -36,6 +36,7 @@ Table of Contents
 	- [Frame](#frame)
 	- [Grand Central Dispatch](#grand-central-dispatch)
 	- [Localization](#localization)
+	- [Once](#once)
 	- [Operators](#operators)
 	- [Range](#range)
 	- [Regex](#regex)
@@ -207,6 +208,19 @@ let formattedString = localizedString(key: "%d numbers", arguments: 10)
 
 Swift access (pun intended) to `NSLocalizedString`, you will get more valid auto completion
 with this one, we promise.
+
+### Once
+
+```swift
+let once = Once()
+once.run {
+  // do something
+}
+
+once.run {
+  // no effect
+}
+```
 
 ### Operators
 
