@@ -45,7 +45,7 @@ Table of Contents
 		- [URLStringConvertible](#urlstringconvertible)
 		- [Core Foundation](#core-foundation)
 	- [Swizzler](#swizzler)
-		- [Then](#then)
+	- [Then](#then)
 	- [Type Alias](#type-alias)
 	- [UITesting](#uitesting)
 	- [UnitTesting](#unittesting)
@@ -350,7 +350,7 @@ object.method() // false
 
 Everyday we are swizzling, this use to be mundane, now it just Swiftling, we mean, super fast.
 
-#### Then
+### Then
 
 ```
 let UIView().then {
