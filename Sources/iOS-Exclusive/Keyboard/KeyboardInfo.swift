@@ -7,9 +7,9 @@ public struct KeyboardInfo {
 
   public init?(notification: Notification) {
     guard let userInfo = (notification as NSNotification).userInfo,
-      let value = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue,
-      let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
-      let curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int
+      let value = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue,
+      let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval,
+      let curve = userInfo[UIResponder.keyboardAnimationCurveUserInfoKey] as? Int
       else { return nil }
 
     self.frame = value.cgRectValue
