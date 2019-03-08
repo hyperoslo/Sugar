@@ -17,9 +17,9 @@ open class KeyboardObserver: NSObject {
 
   open func activate() {
     NotificationCenter.default.addObserver(self, selector: #selector(handleKeyboardWillShow(_:)),
-                                                     name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+                                           name: UIResponder.keyboardWillShowNotification, object: nil)
     NotificationCenter.default.addObserver(self, selector: #selector(handleKeyboardWillHide(_:)),
-                                                     name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+                                           name: UIResponder.keyboardWillHideNotification, object: nil)
   }
 
   open func deactivate() {
