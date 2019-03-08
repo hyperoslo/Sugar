@@ -3,7 +3,7 @@ import UIKit
 public struct KeyboardInfo {
   public let frame: CGRect
   public let duration: TimeInterval
-  public let curve: UIViewAnimationCurve
+  public let curve: UIView.AnimationCurve
 
   public init?(notification: Notification) {
     guard let userInfo = (notification as NSNotification).userInfo,
@@ -14,17 +14,17 @@ public struct KeyboardInfo {
 
     self.frame = value.cgRectValue
     self.duration = duration
-    self.curve = UIViewAnimationCurve(rawValue: curve) ?? .linear
+    self.curve = UIView.AnimationCurve(rawValue: curve) ?? .linear
   }
 
-  public var animation: UIViewAnimationOptions {
+  public var animation: UIView.AnimationOptions {
     switch curve {
     case .easeIn:
       return .curveEaseIn
     case .easeOut:
       return .curveEaseOut
     case .easeInOut:
-      return UIViewAnimationOptions()
+      return UIView.AnimationOptions()
     default:
       return .curveLinear
     }
