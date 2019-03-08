@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.swift_version = '4.2'
 end
