@@ -7,12 +7,12 @@ class StringExtensionCoreFoundationTests: XCTestCase {
   func testStringLength() {
     var testString = "foo"
 
-    XCTAssertEqual(testString.characters.count, testString.length)
+    XCTAssertEqual(testString.count, testString.length)
     XCTAssertEqual(testString.lengthOfBytes(using: String.Encoding.utf8), testString.length)
 
     testString = "Hyper🚀"
 
-    XCTAssertEqual(testString.characters.count, testString.length)
+    XCTAssertEqual(testString.count, testString.length)
     XCTAssertNotEqual(testString.lengthOfBytes(using: String.Encoding.utf8), testString.length)
   }
 
