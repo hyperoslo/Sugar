@@ -12,7 +12,7 @@ public enum Regex: String {
 
 public extension String {
 
-  public func match(_ pattern: String) -> Bool {
+  func match(_ pattern: String) -> Bool {
     do {
       let regex = try NSRegularExpression(pattern: pattern, options: [.caseInsensitive])
       return regex.firstMatch(in: self, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, self.count)) != nil

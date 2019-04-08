@@ -2,11 +2,11 @@ import Foundation
 
 public extension String {
 
-  public func isEmail() -> Bool {
+  func isEmail() -> Bool {
     return match(Regex.Email.pattern)
   }
 
-  public func isNumber() -> Bool {
+  func isNumber() -> Bool {
     return match(Regex.Number.pattern)
   }
 }
