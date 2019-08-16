@@ -2,7 +2,6 @@ import Foundation
 
 public extension String {
 
-  var length: Int { return count }
   var isPresent: Bool { return !isEmpty }
 
   func replace(_ string: String, with withString: String) -> String {
