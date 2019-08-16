@@ -2,6 +2,8 @@ import Foundation
 
 public extension String {
     
+  var isPresent: Bool { return !isEmpty }
+    
   var isEmptyOrWhiteSpace: Bool {
     return trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).isEmpty
   }

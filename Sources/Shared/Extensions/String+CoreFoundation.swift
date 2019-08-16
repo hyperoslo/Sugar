@@ -2,8 +2,6 @@ import Foundation
 
 public extension String {
 
-  var isPresent: Bool { return !isEmpty }
-
   func replace(_ string: String, with withString: String) -> String {
     return replacingOccurrences(of: string, with: withString)
   }
