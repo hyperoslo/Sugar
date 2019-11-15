@@ -34,3 +34,5 @@ Carthage
 
 # SPM
 .build/
+
+Sugar\.xcodeproj/project\.xcworkspace/xcshareddata/IDEWorkspaceChecks\.plist

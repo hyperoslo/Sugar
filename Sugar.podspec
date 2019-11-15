@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Sugar"
   s.summary          = "Something sweet that goes great with your Cocoa"
-  s.version          = "4.0.0"
+  s.version          = "5.0.0"
   s.homepage         = "https://github.com/hyperoslo/Sugar"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.swift_version = '5.0'
 end

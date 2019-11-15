@@ -2,7 +2,7 @@ import UIKit
 
 public extension UIImage {
 
-  public var original: UIImage? {
+  var original: UIImage? {
     guard hasContent else {
       return nil
     }
@@ -10,7 +10,7 @@ public extension UIImage {
     return withRenderingMode(.alwaysOriginal)
   }
 
-  public var template: UIImage? {
+  var template: UIImage? {
     guard hasContent else {
       return nil
     }

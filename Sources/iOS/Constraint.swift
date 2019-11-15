@@ -9,7 +9,7 @@ public struct Constraint {
     }
   }
 
-  public static func on(_ constraints: NSLayoutConstraint ...) {
+  public static func on(_ constraints: NSLayoutConstraint...) {
     on(constraints: constraints)
   }
 }

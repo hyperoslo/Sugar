@@ -27,7 +27,7 @@ private func getQueue(queue queueType: DispatchQueue = .main) -> Dispatch.Dispat
   return queue
 }
 
-public func delay(_ delay:Double, queue queueType: DispatchQueue = .main, closure: @escaping () -> Void) {
+public func delay(_ delay: Double, queue queueType: DispatchQueue = .main, closure: @escaping () -> Void) {
   getQueue(queue: queueType).asyncAfter(
     deadline: DispatchTime.now() + Double(Int64(delay * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC),
     execute: closure
