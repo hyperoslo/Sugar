@@ -22,8 +22,6 @@ Table of Contents
 	- [Simulator](#simulator)
 	- [Keyboard Observer](#keyboard-observer)
 	- [iOS Extensions](#ios-extensions)
-		- [UICollectionView](#uicollectionview)
-		- [UITableView](#uitableview)
 		- [UIView](#uiview)
 		- [UIImage](#uiimage)
 - [OS X](#os-x)
