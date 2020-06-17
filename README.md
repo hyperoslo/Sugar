@@ -407,6 +407,12 @@ To install just write into your Cartfile:
 ```ruby
 github "hyperoslo/Sugar"
 ```
+**Sugar** is also available through [Swift Package Manager](https://swift.org/package-manager).
+- iOS: Open Xcode, File->Swift Packages, search input **https://github.com/hyperoslo/Sugar.git**, and then select Version Up to Next Major **5.0.1** < .
+- Or add dependencies in your `Package.swift`:
+```ruby
+.package(url: "https://github.com/hyperoslo/Sugar.git", .upToNextMajor(from: "5.0.1")),
+```
 
 ## Author
 
