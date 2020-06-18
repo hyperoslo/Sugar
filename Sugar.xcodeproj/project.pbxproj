@@ -599,9 +599,11 @@
 					};
 					BDA447881C2946BB003FDEAD = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 1150;
 					};
 					BDA447911C2946BC003FDEAD = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 1150;
 					};
 					D56DAA771C206516003E7253 = {
 						CreatedOnToolsVersion = 7.2;
@@ -947,6 +949,7 @@
 				PRODUCT_NAME = Sugar;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -969,6 +972,7 @@
 				PRODUCT_NAME = Sugar;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -985,6 +989,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Sugar-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1000,6 +1005,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Sugar-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
